@@ -23,7 +23,7 @@ unzip awscli-bundle.zip
 sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 
 echo "*** Building site with Hugo! ***"
-hugo -server
+hugo
 
 echo "*** Copying Hugo artifacts to AWS S3! ***"
 aws s3 sync ./public s3://wereonlyalittlelost.com
