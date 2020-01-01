@@ -1,4 +1,4 @@
 language: python
 install: skip
 
-script: echo 'hello world'
+script: sh run.sh
