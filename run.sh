@@ -26,6 +26,6 @@ echo "*** Building site with Hugo! ***"
 hugo
 
 echo "*** Copying Hugo artifacts to AWS S3! ***"
-aws s3 sync ./public s3://wereonlyalittlelost.com
+aws s3 sync ./public s3://wereonlyalittlelost.com --acl public-read
 
 echo "*** Build script complete ***"
