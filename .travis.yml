@@ -1,2 +1,4 @@
-install: echo 'hello world'
+language: python
+install: skip
 
+script: echo 'hello world'
