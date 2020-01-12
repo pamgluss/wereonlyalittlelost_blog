@@ -1,5 +1,5 @@
 ---
-tags: ['Texas']
+tags: ['Texas','United States', 'hiking']
 created: '2020-01-12'
 title: 'Wild Basin'
 ---
@@ -8,8 +8,7 @@ While it's technically not a state park I'm including this hike in the "20 State
 
 The park is really close to Austin and has only 2.5 miles of hiking but does have decent overlooks of hill country. 
 
-![20200112_110714](/images/
-20200112_110714.jpg)
+![20200112_110714](/images/20200112_110714.jpg)
 
 There's also good variety in things to see when in such a short span. We crossed a decently serene creek.
 

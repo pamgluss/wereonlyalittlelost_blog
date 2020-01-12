@@ -1,5 +1,5 @@
 ---
-tags: ['texas']
+tags: ['Texas','United States', 'hiking']
 created: '2020-01-11'
 title: 'Inks Lake State Park'
 ---
