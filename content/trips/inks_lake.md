@@ -10,11 +10,11 @@ The park website descriptions of the trails made them seem pretty bland. I've be
 
 The trail has some interesting features and a not terrible amount of elevation gain.
 
-![20200111_114358](20200111_114358.jpg)
+![20200111_114358](/images/20200111_114358.jpg)
 
 The cool thing about the lake were the trees poking up through the water and mud
 
-![20200111_105904](20200111_105904.jpg)
+![20200111_105904](/images/20200111_105904.jpg)
 
 Which you can see if you connect to the lake trail. If you skip the long sections you can keep the best parts of Pecan Flats and The Lake trail to roughly 3 ish miles according to my Fitbit.
 
