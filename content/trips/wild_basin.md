@@ -1,6 +1,6 @@
 ---
 tags: ['Texas','United States', 'hiking']
-created: '2020-01-12'
+created: '01-12-2020'
 title: 'Wild Basin'
 ---
 
