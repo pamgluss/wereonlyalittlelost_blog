@@ -1,6 +1,7 @@
 seURL = "http://wereonlyalittlelost.com/"
 languageCode = "en-us"
 title = "We're Only a Little Lost"
+summary = "Testing"
 theme = "ananke"
 
 MetaDataFormat = "yaml"
@@ -10,6 +11,7 @@ Paginate = 10
 
 [params]
   favicon = "/images/favicon.jpg"
+  tagline = "Pam and Co Travel Around Texas, the Country and Beyond!"
   description = "It's an adventure"
   instagram = "instagram.com/battlemaid01"
   youtube = "https://www.youtube.com/channel/UCx4SjesqsItUdbYmy_aJXzA"
@@ -17,3 +19,5 @@ Paginate = 10
   background_color_class = "bg-black"
   featured_image = "/images/cover_image.jpg"
   recent_posts_number = 1
+  recent_copy = "Latest Post"
+  home = "Home"
