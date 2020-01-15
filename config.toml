@@ -10,7 +10,7 @@ SectionPagesMenu = "main"
 Paginate = 10
 
 [params]
-  favicon = "/images/favicon.jpg"
+  favicon = "/images/favicon.png"
   tagline = "Pam and Co Travel Around Texas, the Country and Beyond!"
   description = "It's an adventure"
   instagram = "instagram.com/battlemaid01"
