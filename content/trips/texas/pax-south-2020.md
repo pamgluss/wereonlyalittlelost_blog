@@ -1,11 +1,11 @@
 ---
-tags: ["Texas", "United States"]
+tags: ["Texas", "United States", 'pax']
 created: '2020-01-19'
 date: "2020-01-19"
 title: 'PAX South 2020'
 ---
 
-I've been going to PAX since 2014 although, historically, to PAX East in Boston. You can refer back to my Tumblr blog for those. I've also been to PAX prime back when my sister lived in Seattle.
+I've been going to PAX since 2014 although, historically, to PAX East in Boston. You can refer back to my [Tumblr blog](https://wereonlyalittlelost.tumblr.com/tagged/pax) for those. I've also been to PAX prime back when my sister lived in Seattle.
 
 So this was my first time trying PAX South in San Antonio, Texas. I've been to San Antonio twice now but I'd never been to the convention center.
 
@@ -17,9 +17,9 @@ My coworker picked us up and drove us to the center.
 
 My impression walking into the expo is that it's much smaller than East or Prime. There were also no big name video game companies with booths. So half the space was for indie games, the other half was for tabletop games. This didn't surprise me because I heard South was more focused on board games.
 
-People asked to take my picture a handful of times which was cool.
+People asked to take my picture a handful of times which was cool. If you've got a picture of me, I'd love to see them.
 
-I got third place in Steel Battalion which is worse than I did the year before
+I got third place in Steel Battalion which is worse than I did the year before. I figured out this year that you can zoom the map out to find your enemies faster.
 
 ![20200118_153226](/images/20200118_153226.jpg)
 
