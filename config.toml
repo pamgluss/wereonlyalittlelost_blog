@@ -7,6 +7,7 @@ theme = "lost_theme"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
+features = ["trips", "about"]
 Paginate = 10
 
 [params]
@@ -21,3 +22,6 @@ Paginate = 10
   recent_posts_number = 1
   recent_copy = "Latest Post"
   home = "Home"
+
+[author]
+  name = "Pam"
