@@ -28,4 +28,7 @@ hugo
 echo "*** Copying Hugo artifacts to AWS S3! ***"
 aws s3 sync ./public s3://wereonlyalittlelost.com --acl public-read
 
+echo "*** Posting to Slack...***"
+curl -X POST -H 'Content-type: application/json' --data '{"text":"Pam has updated the site, go check it out! http://wereonlyalittlelost.com/"}' $SLACK_WEBHOOK_URL
+
 echo "*** Build script complete ***"
