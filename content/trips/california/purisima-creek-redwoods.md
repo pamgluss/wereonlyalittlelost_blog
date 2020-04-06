@@ -11,7 +11,7 @@ Anyways, since 20 parks in 2020 isn't happening for Texas state parks, I'm shift
 
 Good news is, they're goddamn everwhere. Remember how I drove 1.5 hours to [Government Canyon](../../texas/government_canyon)? Well no more! [Purisima](https://www.openspace.org/preserves/purisima-creek-redwoods) is in the Santa Cruz mountains, just a 20 minute drive from where I'm staying. It's right off of Skyline (35) which in it of itself is a fun ride, and if we don't all die from the plague, Alice's is right down the road towards 84. 
 
-Ana and I had a late start - didn't leave the house until nearly 2 PM - but since the park was so close, we didn't actually have any problems with nightfall sneaking up on us. It was also slightly rainy, mostly misty and foggy which was cool. The website doesn't describe the trails well at all, but here is the [trail map](https://www.openspace.org/sites/default/files/map_PCR.pdf). If the mile markers on the map are to be believed, we hiked 6.2 miles. Since the trails all have different names this can get confusing, so make sure to have a map on your phone or printed out. 
+Ana and I had a late start - didn't leave the house until nearly 2 PM - but since the park was so close, we made it out okay. It was also slightly rainy, mostly misty and foggy which was cool. The website doesn't describe the trails well at all, but here is the [trail map](https://www.openspace.org/sites/default/files/map_PCR.pdf). If the mile markers on the map are to be believed, we hiked 6.2 miles. Since the trails all have different names this can get confusing, so make sure to have a map on your phone or printed out. 
 
 ![20200328_150356](/images/20200328_150356.jpg)
 
@@ -23,7 +23,7 @@ Somehow we got lost here which is why if you go make sure you have a map! The tr
 
 ![20200328_172251](/images/20200328_172251.jpg)
 
-It was pretty much that steep for the entirety of Harkins Ridge. That meant our progres was a little slow and the day was inching closer to sunset. It did rain on us a few times, and we started getting eery fog views. I also suspect because of the elevation and fogginess that's why there's moss on the trees which looks really cool. I will say I'm probably more starstruck than normal on this hike because I've been enduring Texas hiking for the last two years haha!
+It was pretty much that steep for the entirety of Harkins Ridge. That meant our progress was a little slow and the day was inching closer to sunset. It did rain on us a few times, and we started getting eery fog views. I also suspect because of the elevation and fogginess that's why there's moss on the trees which looks really cool. I will say I'm probably more starstruck than normal on this hike because I've been enduring Texas hiking for the last two years haha!
 
 ![20200328_173855](/images/20200328_173855.jpg)
 
