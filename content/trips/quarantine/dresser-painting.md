@@ -5,7 +5,7 @@ tags: []
 draft: false
 ---
 
-When I started thinking about my move from Austin to California, I rolled around a couple idea of how to do so in my head. My first thought was take the truck back, the way [I went to Texas in the first place](https://wereonlyalittlelost.tumblr.com/tagged/texas-road-trip). I won't bore you with the details but in the end I decided to fly and ship all my things. What I WISH I had done was paid the extra 600 bucks and hired movers.
+When I started thinking about my move from Austin to California, I rolled around a couple of ideas of how to do so in my head. My first thought was take the truck back, the way [I went to Texas in the first place](https://wereonlyalittlelost.tumblr.com/tagged/texas-road-trip). I won't bore you with the details but in the end I decided to fly and ship all my things. What I WISH I had done was paid the extra 600 bucks and hired movers.
 
 My dresser wasn't particularly nice (the drawers didn't open very easily, the paint was wearing off), but I did have trouble finding another nightstand like it, so I decided hey, I may as well ship it. When it arrived however, I found the dresser was particle board that had been stapled together and in transit had shaken almost entirely in half.
 
