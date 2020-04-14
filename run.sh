@@ -29,7 +29,7 @@ echo "*** Copying Hugo artifacts to AWS S3! ***"
 aws s3 sync ./public s3://wereonlyalittlelost.com --acl public-read
 
 echo "*** Posting to Slack and Discord...***"
-curl -X POST -H 'Content-type: application/json' --data '{"text":"Pam has updated the site, go check it out! http://wereonlyalittlelost.com/"}' $SLACK_WEBHOOK_URL
-curl -X POST -H 'Content-type: application/json' --data '{"content":"Pam has updated the site, go check it out! http://wereonlyalittlelost.com/"}' $DISCORD_WEBHOOK_URL
+curl -X POST -H 'Content-type: application/json' --data "{'text':'Pam has updated the site with the commit message: ${$TRAVIS_COMMIT_MESSAGE}, go check it out! http://wereonlyalittlelost.com/'}" $SLACK_WEBHOOK_URL
+curl -X POST -H 'Content-type: application/json' --data "{'text':'Pam has updated the site with the commit message: ${$TRAVIS_COMMIT_MESSAGE}, go check it out! http://wereonlyalittlelost.com/'}" $DISCORD_WEBHOOK_URL
 
 echo "*** Build script complete ***"
