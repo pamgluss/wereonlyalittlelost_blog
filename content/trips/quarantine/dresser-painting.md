@@ -1,7 +1,7 @@
 ---
 title: "Painting My Dresser"
 date: 2020-04-13
-tags: []
+tags: ['Quarantine']
 draft: false
 ---
 
