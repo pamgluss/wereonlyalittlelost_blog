@@ -39,4 +39,4 @@ You can see in this picture where I got paint on the door knobs as well:
 
 All told from far away it could look a LOT worse. The top coat also left a nice smooth shiny texture on top. 
 
-I think if I do this again, I will do each side of the piece of furniture one at a time to stop dripping issues. I would probabl force out the hardware instead of shrugging. I would use the roller for painting way sooner. I would make sure to be more fastidious about sanding between layers. I would pick a different kind of sealant.
+I think if I do this again, I will do each side of the piece of furniture one at a time to stop dripping issues. I would probably force out the hardware instead of shrugging. I would use the roller for painting way sooner. I would make sure to be more fastidious about sanding between layers. I would pick a different kind of sealant.

@@ -101,7 +101,4 @@ END_SCRIPT
 
 I tested this by deleting all the files through Filezilla, verifying I got a 404 page on the live site, then running run.sh, and verifying the HTML, CSS and image appear again on the live site. That's neat as hell. 
 
-My QA sensibilities tell me there must be a better way to do this. Say what happens if I make a new directory? Or rename my files? I'll get into that in part 2.
-
-
-[Continue Reading Part 2](/trips/quarantine/personal-website-deployment-2)
+My QA sensibilities tell me there must be a better way to do this. Say what happens if I make a new directory? Or rename my files? I'll get into that in part 2. Stay tuned!
