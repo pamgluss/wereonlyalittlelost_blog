@@ -24,3 +24,5 @@ I won't walk through the entire flowchart because you can just read it yourself 
 [This guy](http://www.jimrandall.net/vrr/vrr_upgrade.htm) uses an R/R from a CBR600rr and a CBR1000. Him and his wife really love SVs and have had this issue with every one they've owned. This [svrider](https://www.svrider.com/threads/regulator-rectifier-replacement.323713/) recommends MOSFET R/R which is less prone to overheating and thus destroying itself. I followed the eBay link posted in that thread and bought that R/R so we'll see how it goes when it arrives.
 
 Stay tuned for part 2 when I replace the battery and R/R!
+
+[Continue reading part 2](/trips/quarantine/motorcycle-electrical-problems-2)
