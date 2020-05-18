@@ -5,7 +5,7 @@ layout: section
 description: "Hi! I'm Pam!"
 ---
 
-My name is Pam, and I'm an engineer based out of San Francisco, California.
+My name is Pam, and I'm a software engineer based out of San Francisco, California.
 
 I started this blog way back in 2016 [on Tumblr](https://wereonlyalittlelost.tumblr.com/) when I did my cross country road trip from Rochester, NY to San Francisco, CA. Back then it was to let my parents know I was alive, now I continue the blog for all my trips and treks...
 
