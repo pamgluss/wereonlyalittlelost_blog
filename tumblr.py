@@ -13,7 +13,7 @@ client = pytumblr.TumblrRestClient(
 client.create_link(
     'wereonlyalittlelost', 
     state="published", 
-    title='New Post '+datetime.today().strftime('%m-%d-%Y'), 
-    url='http://wereonlyalittlelost.com/'
+    title='New Blog Posted '+datetime.today().strftime('%m-%d-%Y'), 
+    url='http://wereonlyalittlelost.com/',
     description=sys.argv[1]
 )
