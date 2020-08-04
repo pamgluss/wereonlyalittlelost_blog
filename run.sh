@@ -29,10 +29,15 @@ hugo
 echo "*** Copying Hugo artifacts to AWS S3! ***"
 aws s3 sync ./public s3://wereonlyalittlelost.com --acl public-read
 
-echo "*** Posting to Slack and Discord...***"
+echo "*** Installing pyTumblr ***"
+pip install pytumblr
+
+echo "*** Posting to Slack, Discord and Tumblr...***"
 MSG_CONTENT="Pam has updated the site with the commit message: ${TRAVIS_COMMIT_MESSAGE}, go check it out! http://wereonlyalittlelost.com/"
 
 curl -X POST -H 'Content-type: application/json' --data "{'text': '$MSG_CONTENT'}" ${SLACK_WEBHOOK_URL}
 curl -X POST -H 'Content-type: application/json' --data "{\"content\": \"$MSG_CONTENT\"}" ${DISCORD_WEBHOOK_URL}
+
+python tumblr.py ${MSG_CONTENT}
 
 echo "*** Build script complete ***"
