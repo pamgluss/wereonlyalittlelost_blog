@@ -1,6 +1,7 @@
 import pytumblr
 import sys
 from datetime import datetime
+import os
 
 client = pytumblr.TumblrRestClient(
     os.getenv('TUMBLR_CONSUMER_KEY'),
