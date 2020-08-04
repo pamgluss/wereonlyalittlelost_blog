@@ -10,10 +10,10 @@ client = pytumblr.TumblrRestClient(
     os.getenv('TUMBLR_TOKEN_SECRET'),
 )
 
-client.create_text(
+client.create_link(
     'wereonlyalittlelost', 
     state="published", 
-    slug="testing-text-posts", 
     title='New Post '+datetime.today().strftime('%m-%d-%Y'), 
-    body=sys.argv[1]
+    url='http://wereonlyalittlelost.com/'
+    description=sys.argv[1]
 )
