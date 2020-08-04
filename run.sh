@@ -38,6 +38,6 @@ MSG_CONTENT="Pam has updated the site with the commit message: ${TRAVIS_COMMIT_M
 curl -X POST -H 'Content-type: application/json' --data "{'text': '$MSG_CONTENT'}" ${SLACK_WEBHOOK_URL}
 curl -X POST -H 'Content-type: application/json' --data "{\"content\": \"$MSG_CONTENT\"}" ${DISCORD_WEBHOOK_URL}
 
-python tumblr.py ${MSG_CONTENT}
+python tumblr.py "${MSG_CONTENT}"
 
 echo "*** Build script complete ***"
