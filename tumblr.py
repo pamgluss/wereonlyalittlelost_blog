@@ -5,7 +5,7 @@ import os
 from git import Repo
 
 # Get the recent changed images from the git commit
-repo = Repo('/public/wereonlyalittlelost_blog/')
+repo = Repo(os.getenv('TRAVIS_BUILD_DIR'))
 
 diff = repo.git.diff('HEAD~1..HEAD', name_only=True)
 split_lines = diff.splitlines()
