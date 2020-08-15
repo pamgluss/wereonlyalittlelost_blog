@@ -2,7 +2,16 @@ import pytumblr
 import sys
 from datetime import datetime
 import os
+from git import Repo
 
+# Get the recent changed images from the git commit
+repo = Repo('/public/wereonlyalittlelost_blog/')
+
+diff = repo.git.diff('HEAD~1..HEAD', name_only=True)
+split_lines = diff.splitlines()
+filtered_list = list(filter(lambda x: '.jpg' in x, split_lines))
+
+# Connect to Tumblr Oath cient
 client = pytumblr.TumblrRestClient(
     os.getenv('TUMBLR_CONSUMER_KEY'),
     os.getenv('TUMBLR_CONSUMER_SECRET'),
@@ -10,10 +19,24 @@ client = pytumblr.TumblrRestClient(
     os.getenv('TUMBLR_TOKEN_SECRET'),
 )
 
-client.create_link(
-    'wereonlyalittlelost', 
-    state="published", 
-    title='New Blog Posted '+datetime.today().strftime('%m-%d-%Y'), 
-    url='http://wereonlyalittlelost.com/',
-    description=sys.argv[1]
-)
+if len(filtered_list) > 0:
+    selected_image = filtered_list[0] 
+    client.create_photo(
+        'wereonlyalittlelost', 
+        state="published",
+        tags=[sys.argv[1]],
+        format="markdown",
+        data=[selected_image],
+        caption='## New Blog Posted '+datetime.today().strftime('%m-%d-%Y') + '\n' + sys.argv[1]
+    )
+else:
+    client.create_link(
+        'wereonlyalittlelost', 
+        state="published", 
+        title='New Blog Posted '+datetime.today().strftime('%m-%d-%Y'), 
+        url='http://wereonlyalittlelost.com/',
+        description=sys.argv[1]
+    )
+
+
+

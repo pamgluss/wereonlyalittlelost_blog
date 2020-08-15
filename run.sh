@@ -29,8 +29,9 @@ hugo
 echo "*** Copying Hugo artifacts to AWS S3! ***"
 aws s3 sync ./public s3://wereonlyalittlelost.com --acl public-read
 
-echo "*** Installing pyTumblr ***"
+echo "*** Installing pyTumblr and gitPython ***"
 pip install pytumblr
+pip install gitpython
 
 echo "*** Posting to Slack, Discord and Tumblr...***"
 MSG_CONTENT="Pam has updated the site with the commit message: ${TRAVIS_COMMIT_MESSAGE}, go check it out! http://wereonlyalittlelost.com/"
