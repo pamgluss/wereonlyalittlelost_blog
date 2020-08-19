@@ -29,6 +29,7 @@ if len(filtered_list) > 0:
         data=[selected_image],
         caption='## New Blog Posted '+datetime.today().strftime('%m-%d-%Y') + '\n' + sys.argv[1]
     )
+    print('Uploaded ' + selected_image)
 else:
     client.create_link(
         'wereonlyalittlelost', 
@@ -37,6 +38,7 @@ else:
         url='http://wereonlyalittlelost.com/',
         description=sys.argv[1]
     )
+    print('Uploaded a link')
 
 
 

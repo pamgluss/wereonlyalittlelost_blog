@@ -1,6 +1,6 @@
 ---
 title: "Getting Travis to Deploy my Website to Godaddy Part 2"
-date: 2020-04-16
+date: 2020-08-16
 tags: ['Quarantine']
 draft: true
 ---
@@ -29,3 +29,7 @@ Let's take a gander at that. Googled ["ftp passive mode travis ci"](https://blog
 - HTTPS: Based on what I've seen and read I strongly doubt this is possible with GoDaddy but there's no point in not looking into it.
 -  SFTP: Should come bundled in with `inetutils` right?
 - FTP but with a tunnel: I know *of* tunneling but I've never set it up before. Worth a google and they even have a link I can follow.
+
+First: HTTPS requires an SSL cert which according to my dad: "I'm wondering how to enable ssl without paying 10x per month. They would have to work at it to make this hard."
+
+Let's go around that and try out SFTP.
