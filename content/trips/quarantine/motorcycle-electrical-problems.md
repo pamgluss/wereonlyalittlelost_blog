@@ -1,7 +1,7 @@
 ---
 title: "Diagnosing Motorcycle Electrical Problems"
 date: 2020-04-20
-tags: ['Quarantine']
+tags: ['Quarantine', 'Motorcycle']
 draft: false
 ---
 

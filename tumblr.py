@@ -24,17 +24,17 @@ if len(filtered_list) > 0:
     client.create_photo(
         'wereonlyalittlelost', 
         state="published",
-        tags=[sys.argv[1]],
+        tags=["pictures", "adventure", sys.argv[1]],
         format="markdown",
         data=[selected_image],
-        caption='## New Blog Posted '+datetime.today().strftime('%m-%d-%Y') + '\n' + sys.argv[1]
+        caption='## Blog Posted '+datetime.today().strftime('%m-%d-%Y') + '\n' + sys.argv[1]
     )
     print('Uploaded ' + selected_image)
 else:
     client.create_link(
         'wereonlyalittlelost', 
         state="published", 
-        title='New Blog Posted '+datetime.today().strftime('%m-%d-%Y'), 
+        title='Blog Posted '+datetime.today().strftime('%m-%d-%Y'), 
         url='http://wereonlyalittlelost.com/',
         description=sys.argv[1]
     )

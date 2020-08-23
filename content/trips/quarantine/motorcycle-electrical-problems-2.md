@@ -1,7 +1,7 @@
 ---
 title: "Motorcycle Electrical Problems - Part Two"
 date: 2020-05-07T20:27:07-07:00
-tags: ['Quarantine']
+tags: ['Quarantine', 'Motorcycle']
 draft: false
 ---
 [Read Part One](/trips/quarantine/motorcycle-electrical-problems)

@@ -29,16 +29,26 @@ hugo
 echo "*** Copying Hugo artifacts to AWS S3! ***"
 aws s3 sync ./public s3://wereonlyalittlelost.com --acl public-read
 
-echo "*** Installing pyTumblr and gitPython ***"
-pip install pytumblr
-pip install gitpython
+echo "*** Checking to see if I've created a new blog post...***"
 
-echo "*** Posting to Slack, Discord and Tumblr...***"
-MSG_CONTENT="Pam has updated the site with the commit message: ${TRAVIS_COMMIT_MESSAGE}, go check it out! http://wereonlyalittlelost.com/"
+DIFF=$(git diff HEAD~1..HEAD --name-only)
 
-curl -X POST -H 'Content-type: application/json' --data "{'text': '$MSG_CONTENT'}" ${SLACK_WEBHOOK_URL}
-curl -X POST -H 'Content-type: application/json' --data "{\"content\": \"$MSG_CONTENT\"}" ${DISCORD_WEBHOOK_URL}
+if [[ "$DIFF" == *".md"* ]]; 
+then
+    echo "*** Installing pyTumblr and gitPython ***"
+    pip install pytumblr
+    pip install gitpython
+    
+    echo "*** Posting to Slack, Discord and Tumblr...***"
+    LINK="http://wereonlyalittlelost.com/"
+    MSG_CONTENT="${TRAVIS_COMMIT_MESSAGE}: read more here: "
 
-python tumblr.py "${MSG_CONTENT}"
+    curl -X POST -H 'Content-type: application/json' --data "{'text': '$MSG_CONTENT'}" ${SLACK_WEBHOOK_URL} $LINK
+    curl -X POST -H 'Content-type: application/json' --data "{\"content\": \"$MSG_CONTENT\"}" ${DISCORD_WEBHOOK_URL} $LINK
+
+    python tumblr.py "${MSG_CONTENT} [$LINK]($LINK)"
+else
+    echo "** No changes to md files, skipping posting to social media!***"
+fi
 
 echo "*** Build script complete ***"
