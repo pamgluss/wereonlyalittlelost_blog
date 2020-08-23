@@ -1,4 +1,4 @@
 language: python
 install: skip
 
-script: sh run.sh
+script: bash run.sh
