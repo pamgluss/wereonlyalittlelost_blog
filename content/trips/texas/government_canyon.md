@@ -1,5 +1,5 @@
 ---
-tags: ['Texas','United States', 'Hiking']
+tags: ['Texas','United States', 'Hiking', '2020 State Parks']
 created: '2020-01-25'
 date: '2020-01-25'
 title: 'Government Canyon State Wilderness Area'

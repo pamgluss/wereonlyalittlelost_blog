@@ -2,7 +2,7 @@
 title: "Balcones Canyonlands"
 date: 2020-03-14T16:03:09-05:00
 draft: false
-tags: ['Texas','United States', 'Hiking']
+tags: ['Texas','United States', 'Hiking', '2020 State Parks']
 ---
 
 This, along with [Wild Basin](/trips/texas/wild_basin/), is not a state park, but it is close-ish to Austin at about 45 - 60 minutes away. You can see [here](https://www.fws.gov/uploadedFiles/Doeskin%20WV%202012%20trails%20map.pdf) that the trail makes a triple ice cream scoop shape, which means you can walk along the outside edge of the whole thing and come out to about 3.5 miles of hiking. This is the perfect activity for the times because you get some exercise and fresh air, outside the house and not surrounded by people or touching things other people have touched.

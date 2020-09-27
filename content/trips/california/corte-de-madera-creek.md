@@ -1,7 +1,7 @@
 ---
 title: "El Corte De Madera Creek Preserve"
 date: 2020-05-17T01:31:05-07:00
-tags: ['California','United States', 'Hiking']
+tags: ['California','United States', 'Hiking', '2020 State Parks']
 draft: false
 ---
 
