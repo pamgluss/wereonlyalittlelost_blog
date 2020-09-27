@@ -41,10 +41,10 @@ then
     
     echo "*** Posting to Slack, Discord and Tumblr...***"
     LINK="http://wereonlyalittlelost.com/"
-    MSG_CONTENT="${TRAVIS_COMMIT_MESSAGE}: read more here: "
+    MSG_CONTENT="${TRAVIS_COMMIT_MESSAGE}: read more at "
 
-    curl -X POST -H 'Content-type: application/json' --data "{'text': '$MSG_CONTENT'}" ${SLACK_WEBHOOK_URL} $LINK
-    curl -X POST -H 'Content-type: application/json' --data "{\"content\": \"$MSG_CONTENT\"}" ${DISCORD_WEBHOOK_URL} $LINK
+    curl -X POST -H 'Content-type: application/json' --data "{'text': '$MSG_CONTENT $LINK'}" ${SLACK_WEBHOOK_URL} 
+    curl -X POST -H 'Content-type: application/json' --data "{\"content\": \"$MSG_CONTENT $LINK\"}" ${DISCORD_WEBHOOK_URL} 
 
     python tumblr.py "${MSG_CONTENT} [$LINK]($LINK)"
 else
