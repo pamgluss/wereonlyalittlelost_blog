@@ -1,7 +1,7 @@
 ---
 title: "Butano State Park"
 date: 2020-08-14T14:53:24-07:00
-tags: ['California','United States', 'Hiking']
+tags: ['California','United States', 'Hiking', '2020 State Parks']
 draft: false
 ---
 

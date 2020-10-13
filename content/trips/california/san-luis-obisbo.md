@@ -1,7 +1,7 @@
 ---
 title: "San Luis Obispo"
 date: 2020-10-02
-tags: ['San Luis Obispo','California','United States']
+tags: ['San Luis Obispo','California','United States', 'Hiking', '2020 State Parks']
 draft: false
 ---
 
@@ -11,7 +11,7 @@ After I got settled in, we spent the day at Oceano Dunes Natural Preserve on the
 
 ![20201002_180622](/images/20201002_180622.jpg)
 
-Saturday we met up with my old manager to do a few activities around town. I really wanted to hike on this trip but it was pretty hot on Saturday and the air quality wasn't great. So the men humored me with a hike at [Pismo Preserve](https://lcslo.org/pismopreserve/) but it was uphill and we didn't last very long. I think we were walking for only like thirty minutes! 
+Saturday we met up with my old manager to do a few activities around town. I really wanted to hike on this trip but it was pretty hot on Saturday and the air quality wasn't great. So the men humored me with a hike at [Pismo Preserve](https://lcslo.org/pismopreserve/) but it was uphill and we didn't last very long. I think we were walking for only like thirty minutes! I'm still tagging this as 2020 State Parks but I'm not proud of it. 
 
 ![20201003_121615](/images/20201003_121615.jpg)
 
