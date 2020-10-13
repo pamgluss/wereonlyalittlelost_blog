@@ -29,7 +29,7 @@ hugo
 echo "*** Copying Hugo artifacts to AWS S3! ***"
 aws s3 sync ./public s3://wereonlyalittlelost.com --acl public-read
 
-echo "*** Checking to see if I've created a new blog post...***"
+echo "*** Checking to see if I've created a new blog post... ***"
 
 DIFF=$(git diff HEAD~1..HEAD --name-only)
 
@@ -39,7 +39,7 @@ then
     pip install pytumblr
     pip install gitpython
     
-    echo "*** Posting to Slack, Discord and Tumblr...***"
+    echo "*** Posting to Slack, Discord and Tumblr... ***"
     LINK="http://wereonlyalittlelost.com/"
     MSG_CONTENT="${TRAVIS_COMMIT_MESSAGE}: read more at "
 
@@ -48,7 +48,7 @@ then
 
     python tumblr.py "${MSG_CONTENT} [$LINK]($LINK)"
 else
-    echo "** No changes to md files, skipping posting to social media!***"
+    echo "** No changes to md files, skipping posting to social media! ***"
 fi
 
 echo "*** Build script complete ***"
