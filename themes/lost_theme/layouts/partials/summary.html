@@ -11,5 +11,18 @@
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       {{ .Summary  }}
     </div>
+
+    <!--Display rating and difficulty if they exist for the .md file--> 
+    <span>
+      {{ if eq .Params.rating "Recommended" }}
+        <p style="color:green;"> {{ .Params.rating }} ☆</p>
+      {{ else }}
+        <p>{{ .Params.rating }}</p>
+      {{ end }}
+
+      {{ if .Params.difficulty }}
+        <p> Difficulty: {{ .Params.difficulty }}</p>
+      {{ end }}
+    </span>
   </div>
 </div>

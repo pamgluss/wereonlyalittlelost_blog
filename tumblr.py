@@ -27,7 +27,7 @@ if len(filtered_list) > 0:
         tags=["pictures", "adventure", sys.argv[1]],
         format="markdown",
         data=[selected_image],
-        caption='## Blog Posted '+datetime.today().strftime('%m-%d-%Y') + '\n' + sys.argv[1]
+        caption='## Blog Posted \n' + sys.argv[1]
     )
     print('Uploaded ' + selected_image)
 else:
