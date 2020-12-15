@@ -15,7 +15,7 @@ filtered_list = list(filter(lambda x: '.jpg' in x, split_lines))
 # Link to the specific post instead of to the homepage
 # So search for .md files and remove any from about/ then reformat the path to match what you'll see in prod
 # To Future Pam, if you're editing multiple .md files under trips at once...... good luck
-md_filtered_list = filtered_list = list(filter(lambda x: '.md' in x, split_lines))
+md_filtered_list = list(filter(lambda x: '.md' in x, split_lines))
 
 for md in md_filtered_list:
     if ('about' in md):
