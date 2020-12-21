@@ -44,7 +44,7 @@ titleStart = fileString.find('title:')
 titleEnd = fileString.find('\n', titleStart) - 1
 title = "".join(fileString[titleStart:titleEnd].replace('title: "', ''))
 
-Connect to Tumblr Oath cient
+# Connect to Tumblr Oath client
 client = pytumblr.TumblrRestClient(
     os.getenv('TUMBLR_CONSUMER_KEY'),
     os.getenv('TUMBLR_CONSUMER_SECRET'),
