@@ -3,6 +3,16 @@ import sys
 from datetime import datetime
 import os
 from git import Repo
+import requests
+import json
+
+# for local testing
+from dotenv import load_dotenv
+from pathlib import Path  # Python 3.6+ only
+env_path = Path('.') / '.env'
+load_dotenv(dotenv_path=env_path)
+
+BASE_URL = 'http://wereonlyalittlelost.com/'
 
 # Get the recent changed images from the git commit
 repo = Repo(os.getenv('TRAVIS_BUILD_DIR'))
@@ -23,13 +33,18 @@ for md in md_filtered_list:
 url = md_filtered_list[0].replace('content/', '')[0:-3] + "/"
 
 # Let's see if we can get the tags and some content out of the md too
+# We're currently doing idiotic things to remove unnecessary characters
 f = open(md_filtered_list[0], 'r')
 fileString = f.read()
 start = fileString.find('tags:')
 end = fileString.find('\n', start)
-tags = fileString[start:end].replace('tags: ', '')
+tags = "".join(fileString[start:end].replace('tags: ', ''))
 
-# Connect to Tumblr Oath cient
+titleStart = fileString.find('title:')
+titleEnd = fileString.find('\n', titleStart) - 1
+title = "".join(fileString[titleStart:titleEnd].replace('title: "', ''))
+
+Connect to Tumblr Oath cient
 client = pytumblr.TumblrRestClient(
     os.getenv('TUMBLR_CONSUMER_KEY'),
     os.getenv('TUMBLR_CONSUMER_SECRET'),
@@ -45,16 +60,28 @@ if len(filtered_list) > 0:
         tags=tags,
         format="markdown",
         data=[selected_image],
-        caption='## Blog Posted \n' + sys.argv[1] + url
+        caption='## {title} \n' + "Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
     )
-    print('Uploaded ' + selected_image)
+    print('Uploaded this image to Tumblr: ' + selected_image)
 else:
     client.create_link(
         'wereonlyalittlelost', 
         state="published", 
-        title='Blog Posted '+datetime.today().strftime('%m-%d-%Y'), 
+        title=title, 
         url='http://wereonlyalittlelost.com/' + url,
-        description=sys.argv[1] + url
+        description="Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
     )
-    print('Uploaded a link')
+    print('Uploaded a link to Tumblr')
 
+# Use python Request lib to upload data to Discord/Slack instead of a terminal cURL that depends on the commit message
+slackData = json.dumps({ "text": f"{title}: Read more here http://wereonlyalittlelost.com/{url}" })
+rS = requests.post(os.getenv('SLACK_WEBHOOK_URL'), data = slackData, headers={'Content-Type': 'application/json'})
+if rS.text == "ok":
+    print('Successfully uploaded to Slack!')
+else:
+    print('Something went wrong uploading to Slack')
+
+# Discord response can be 200-204
+data = {'content': f"{title}: Read more here http://wereonlyalittlelost.com/{url}"}
+rD = requests.post(os.getenv('DISCORD_WEBHOOK_URL'), data = data)
+print('Uploaded to Discord!')

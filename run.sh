@@ -38,15 +38,10 @@ then
     echo "*** Installing pyTumblr and gitPython ***"
     pip install pytumblr
     pip install gitpython
+    pip install pycurl 
     
     echo "*** Posting to Slack, Discord and Tumblr... ***"
-    LINK="http://wereonlyalittlelost.com/"
-    MSG_CONTENT="${TRAVIS_COMMIT_MESSAGE}: read more at "
-
-    curl -X POST -H 'Content-type: application/json' --data "{'text': '$MSG_CONTENT $LINK'}" ${SLACK_WEBHOOK_URL} 
-    curl -X POST -H 'Content-type: application/json' --data "{\"content\": \"$MSG_CONTENT $LINK\"}" ${DISCORD_WEBHOOK_URL} 
-
-    python tumblr.py "${MSG_CONTENT} [$LINK]($LINK)"
+    python social-media.py
 else
     echo "** No changes to md files, skipping posting to social media! ***"
 fi
