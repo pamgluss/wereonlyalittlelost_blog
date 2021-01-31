@@ -40,13 +40,17 @@ url = md_filtered_list[0].replace('content/', '')[0:-3] + "/"
 # We're currently doing idiotic things to remove unnecessary characters
 f = open(md_filtered_list[0], 'r')
 fileString = f.read()
+
 start = fileString.find('tags:')
 end = fileString.find('\n', start)
-tags = "".join(fileString[start:end].replace('tags: ', ''))
+# First we take a slice of the fileString from tags to the line break which will look like `"tags: ['California','United States', 'Hiking', '2021 State Parks']"`
+# We only want the array so we replace `tags: ` with nothing
+# Tumblr accepts an array of strings for tags so we use eval to convert it from string
+tags = eval(fileString[start:end].replace('tags: ', ''))
 
 titleStart = fileString.find('title:')
 titleEnd = fileString.find('\n', titleStart) - 1
-title = "".join(fileString[titleStart:titleEnd].replace('title: "', ''))
+title = fileString[titleStart:titleEnd].replace('title: "', '')
 
 # Connect to Tumblr Oath client
 print('Connecting to Tumblr Oauth client')
@@ -60,14 +64,14 @@ client = pytumblr.TumblrRestClient(
 jpg_filtered_list = list(filter(lambda x: '.jpg' in x, split_lines))
 
 if len(jpg_filtered_list) > 0:
-    selected_image = jpg_filtered_list[0] 
+    selected_image = jpg_filtered_list[0]
     client.create_photo(
         'wereonlyalittlelost', 
         state="published",
         tags=tags,
         format="markdown",
         data=[selected_image],
-        caption='## {title} \n' + "Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
+        caption=f"## {title} \n Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
     )
     print('Uploaded this image to Tumblr: ' + selected_image)
 else:
@@ -76,7 +80,7 @@ else:
         state="published", 
         title=title, 
         url='http://wereonlyalittlelost.com/' + url,
-        description="Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
+        description=f"Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
     )
     print('Uploaded a link to Tumblr')
 
@@ -87,8 +91,9 @@ if rS.text == "ok":
     print('Successfully uploaded to Slack!')
 else:
     print('Something went wrong uploading to Slack')
+    print(rS)
 
 # Discord response can be 200-204
-data = {'content': f"{title}: Read more here http://wereonlyalittlelost.com/{url}"}
+data = {'content': f"{title}:\n Read more at http://wereonlyalittlelost.com/{url}"}
 rD = requests.post(os.getenv('DISCORD_WEBHOOK_URL'), data = data)
 print('Uploaded to Discord!')

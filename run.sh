@@ -38,7 +38,6 @@ then
     echo "*** Installing pyTumblr and gitPython ***"
     pip install pytumblr
     pip install gitpython
-    pip install pycurl 
     
     echo "*** Posting to Slack, Discord and Tumblr... ***"
     python social-media.py
