@@ -21,7 +21,7 @@ The rock formations are fantastic, and there's a view of the valley beyond Delic
 
 ![20210227_111520](/images/20210227_111520.png)
 
-One thing I thought was humorous was that the guidebook warns about clever ravents that will open your cooler and steal your food. There were two all the way up at the Arch waiting for tourists to spill their food. I tried to get a good shot of one flying overhead.
+One thing I thought was humorous was that the guidebook warns about clever ravens that will open your cooler and steal your food. There were two all the way up at the Arch waiting for tourists to spill their food. I tried to get a good shot of one flying overhead.
 
 The way back down was incredibly easy compared to the walk up. There are some narrow parts at the top though so make sure to bring a mask and watch your step.
 

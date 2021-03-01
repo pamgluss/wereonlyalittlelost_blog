@@ -82,7 +82,7 @@ else:
         title=title,
         tags=tags,
         url='http://wereonlyalittlelost.com/' + url,
-        description=f"Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
+        description="Follow the link to see the full blog post and pictures"
     )
     print('Uploaded a link to Tumblr')
 

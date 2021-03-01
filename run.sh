@@ -33,7 +33,9 @@ echo "*** Checking to see if I've created a new blog post... ***"
 
 DIFF=$(git diff HEAD~1..HEAD --name-only)
 
-if [[ "$DIFF" == *".md"* ]]; 
+# To post to social media we expect a) a valid md file (a trip post)
+# and b) no exclude keyword in the commit message
+if [[ "$DIFF" == *".md"* ]] && [[ "${TRAVIS_COMMIT_MESSAGE}" != *"exclude"* ]]; 
 then
     echo "*** Installing pyTumblr and gitPython ***"
     pip install pytumblr
@@ -42,7 +44,7 @@ then
     echo "*** Posting to Slack, Discord and Tumblr... ***"
     python social-media.py
 else
-    echo "** No changes to md files, skipping posting to social media! ***"
+    echo "** Skipping posting to social media! ***"
 fi
 
 echo "*** Build script complete ***"
