@@ -17,7 +17,7 @@ There are trail markers indicating if you keep walking along the river you'll en
 
 There is one section where you are ducking under arches of trees (heh, get it?)
 
-![20210226_162506](/images/20210226_162506.png)
+![20210226_164156](/images/20210226_164156.png)
 
 There was one woman jogging through here where we wondering how she dealt with the trees and the cactus!
 
@@ -26,3 +26,5 @@ The end of the trail is not marked, you basically figure it out once there's no 
 ![20210226_165721](/images/20210226_165721.png)
 
 We headed back in the nick of time and got back to our cabin before night fall. It was SO windy on the way back though! I believe all told our hike was three or four miles. Sadly my fitbit died literally the day we left.
+
+For dinners we planned on making dried food that only required boiling water which today included those bags of premade spanish rice that you can either microwave or cook on the stove with a few tablespoons of water. We added cut up smoked sausage and broccoli which resulted in something nearly like jambalaya. It was so good! We were not allowed to burn wood I believe due to the season so bring your gas stove!

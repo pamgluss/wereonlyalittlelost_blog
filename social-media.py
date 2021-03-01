@@ -79,7 +79,8 @@ else:
     client.create_link(
         'wereonlyalittlelost', 
         state="published", 
-        title=title, 
+        title=title,
+        tags=tags,
         url='http://wereonlyalittlelost.com/' + url,
         description=f"Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
     )
