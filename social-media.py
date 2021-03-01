@@ -1,4 +1,4 @@
-import pytumblr
+# import pytumblr
 import sys
 from datetime import datetime
 import os
@@ -21,17 +21,18 @@ diff = repo.git.diff('HEAD~1..HEAD', name_only=True)
 split_lines = diff.splitlines()
 
 # Link to the specific post instead of to the homepage
-# So search for .md files and remove any from about/ then reformat the path to match what you'll see in prod
+# So search for .md files and remove any from about/ or README
+# then reformat the path to match what you'll see in prod
 # To Future Pam, if you're editing multiple .md files under trips at once...... good luck
 md_filtered_list = list(filter(lambda x: '.md' in x, split_lines))
 
 for md in md_filtered_list:
-    if ('about' in md):
+    if ('about' in md or md == 'README.md'):
         md_filtered_list.remove(md)
 
-# The run.sh script checks to make sure there's a change to .md but if we *only* change about, we should skip posting
+# The run.sh script checks to make sure there's a change to .md but if we *only* change about/README, we should skip posting
 if len(md_filtered_list) == 0:
-    print('Did not find any md files besides About. Exiting early.')
+    print('Did not find any md files besides About or README. Exiting early.')
     quit()
 
 url = md_filtered_list[0].replace('content/', '')[0:-3] + "/"
@@ -54,46 +55,46 @@ title = fileString[titleStart:titleEnd].replace('title: "', '')
 
 # Connect to Tumblr Oath client
 print('Connecting to Tumblr Oauth client')
-client = pytumblr.TumblrRestClient(
-    os.getenv('TUMBLR_CONSUMER_KEY'),
-    os.getenv('TUMBLR_CONSUMER_SECRET'),
-    os.getenv('TUMBLR_TOKEN'),
-    os.getenv('TUMBLR_TOKEN_SECRET'),
-)
+# client = pytumblr.TumblrRestClient(
+#     os.getenv('TUMBLR_CONSUMER_KEY'),
+#     os.getenv('TUMBLR_CONSUMER_SECRET'),
+#     os.getenv('TUMBLR_TOKEN'),
+#     os.getenv('TUMBLR_TOKEN_SECRET'),
+# )
 
-jpg_filtered_list = list(filter(lambda x: '.jpg' in x, split_lines))
+# jpg_filtered_list = list(filter(lambda x: '.jpg' in x, split_lines))
 
-if len(jpg_filtered_list) > 0:
-    selected_image = jpg_filtered_list[0]
-    client.create_photo(
-        'wereonlyalittlelost', 
-        state="published",
-        tags=tags,
-        format="markdown",
-        data=[selected_image],
-        caption=f"## {title} \n Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
-    )
-    print('Uploaded this image to Tumblr: ' + selected_image)
-else:
-    client.create_link(
-        'wereonlyalittlelost', 
-        state="published", 
-        title=title, 
-        url='http://wereonlyalittlelost.com/' + url,
-        description=f"Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
-    )
-    print('Uploaded a link to Tumblr')
+# if len(jpg_filtered_list) > 0:
+#     selected_image = jpg_filtered_list[0]
+#     client.create_photo(
+#         'wereonlyalittlelost', 
+#         state="published",
+#         tags=tags,
+#         format="markdown",
+#         data=[selected_image],
+#         caption=f"## {title} \n Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
+#     )
+#     print('Uploaded this image to Tumblr: ' + selected_image)
+# else:
+#     client.create_link(
+#         'wereonlyalittlelost', 
+#         state="published", 
+#         title=title, 
+#         url='http://wereonlyalittlelost.com/' + url,
+#         description=f"Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
+#     )
+#     print('Uploaded a link to Tumblr')
 
-# Use python Request lib to upload data to Discord/Slack instead of a terminal cURL that depends on the commit message
-slackData = json.dumps({ "text": f"{title}: Read more here http://wereonlyalittlelost.com/{url}" })
-rS = requests.post(os.getenv('SLACK_WEBHOOK_URL'), data = slackData, headers={'Content-Type': 'application/json'})
-if rS.text == "ok":
-    print('Successfully uploaded to Slack!')
-else:
-    print('Something went wrong uploading to Slack')
-    print(rS)
+# # Use python Request lib to upload data to Discord/Slack instead of a terminal cURL that depends on the commit message
+# slackData = json.dumps({ "text": f"{title}: Read more here http://wereonlyalittlelost.com/{url}" })
+# rS = requests.post(os.getenv('SLACK_WEBHOOK_URL'), data = slackData, headers={'Content-Type': 'application/json'})
+# if rS.text == "ok":
+#     print('Successfully uploaded to Slack!')
+# else:
+#     print('Something went wrong uploading to Slack')
+#     print(rS)
 
-# Discord response can be 200-204
-data = {'content': f"{title}:\n Read more at http://wereonlyalittlelost.com/{url}"}
-rD = requests.post(os.getenv('DISCORD_WEBHOOK_URL'), data = data)
-print('Uploaded to Discord!')
+# # Discord response can be 200-204
+# data = {'content': f"{title}:\n Read more at http://wereonlyalittlelost.com/{url}"}
+# rD = requests.post(os.getenv('DISCORD_WEBHOOK_URL'), data = data)
+# print('Uploaded to Discord!')
