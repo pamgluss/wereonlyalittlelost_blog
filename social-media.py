@@ -1,4 +1,4 @@
-# import pytumblr
+import pytumblr
 import sys
 from datetime import datetime
 import os

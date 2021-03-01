@@ -79,4 +79,4 @@ One cool thing is as you head back to the Double O arch, you can see it from ano
 
 From there we turned back and headed back the way we came. Like I said we weren't sold on the primitive trail and it added an additional mile on to the hike.
 
-This meant we had hiked 10 miles today, total!! We got gas and a bottle of wine in town before heading back to the cabin to make dinner. We cut up sausage and broccoli and made some boxed mac n cheese with poblano. It was so good after a long day! We didn't even get a chance to open the wine and both of us fell asleep at 8:30 PM!
+This meant we had hiked 10 miles today, total!! We got gas and a bottle of wine in town before heading back to the cabin to make dinner. We cut up sausage and broccoli and made some boxed mac n cheese with poblano. It was so good after a long day! We didn't even get a chance to open the wine and both of us fell asleep at 8:30 PM.
