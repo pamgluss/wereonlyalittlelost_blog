@@ -55,46 +55,46 @@ title = fileString[titleStart:titleEnd].replace('title: "', '')
 
 # Connect to Tumblr Oath client
 print('Connecting to Tumblr Oauth client')
-# client = pytumblr.TumblrRestClient(
-#     os.getenv('TUMBLR_CONSUMER_KEY'),
-#     os.getenv('TUMBLR_CONSUMER_SECRET'),
-#     os.getenv('TUMBLR_TOKEN'),
-#     os.getenv('TUMBLR_TOKEN_SECRET'),
-# )
+client = pytumblr.TumblrRestClient(
+    os.getenv('TUMBLR_CONSUMER_KEY'),
+    os.getenv('TUMBLR_CONSUMER_SECRET'),
+    os.getenv('TUMBLR_TOKEN'),
+    os.getenv('TUMBLR_TOKEN_SECRET'),
+)
 
-# jpg_filtered_list = list(filter(lambda x: '.jpg' in x, split_lines))
+jpg_filtered_list = list(filter(lambda x: '.jpg' in x, split_lines))
 
-# if len(jpg_filtered_list) > 0:
-#     selected_image = jpg_filtered_list[0]
-#     client.create_photo(
-#         'wereonlyalittlelost', 
-#         state="published",
-#         tags=tags,
-#         format="markdown",
-#         data=[selected_image],
-#         caption=f"## {title} \n Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
-#     )
-#     print('Uploaded this image to Tumblr: ' + selected_image)
-# else:
-#     client.create_link(
-#         'wereonlyalittlelost', 
-#         state="published", 
-#         title=title, 
-#         url='http://wereonlyalittlelost.com/' + url,
-#         description=f"Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
-#     )
-#     print('Uploaded a link to Tumblr')
+if len(jpg_filtered_list) > 0:
+    selected_image = jpg_filtered_list[0]
+    client.create_photo(
+        'wereonlyalittlelost', 
+        state="published",
+        tags=tags,
+        format="markdown",
+        data=[selected_image],
+        caption=f"## {title} \n Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
+    )
+    print('Uploaded this image to Tumblr: ' + selected_image)
+else:
+    client.create_link(
+        'wereonlyalittlelost', 
+        state="published", 
+        title=title, 
+        url='http://wereonlyalittlelost.com/' + url,
+        description=f"Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
+    )
+    print('Uploaded a link to Tumblr')
 
-# # Use python Request lib to upload data to Discord/Slack instead of a terminal cURL that depends on the commit message
-# slackData = json.dumps({ "text": f"{title}: Read more here http://wereonlyalittlelost.com/{url}" })
-# rS = requests.post(os.getenv('SLACK_WEBHOOK_URL'), data = slackData, headers={'Content-Type': 'application/json'})
-# if rS.text == "ok":
-#     print('Successfully uploaded to Slack!')
-# else:
-#     print('Something went wrong uploading to Slack')
-#     print(rS)
+# Use python Request lib to upload data to Discord/Slack instead of a terminal cURL that depends on the commit message
+slackData = json.dumps({ "text": f"{title}: Read more here http://wereonlyalittlelost.com/{url}" })
+rS = requests.post(os.getenv('SLACK_WEBHOOK_URL'), data = slackData, headers={'Content-Type': 'application/json'})
+if rS.text == "ok":
+    print('Successfully uploaded to Slack!')
+else:
+    print('Something went wrong uploading to Slack')
+    print(rS)
 
-# # Discord response can be 200-204
-# data = {'content': f"{title}:\n Read more at http://wereonlyalittlelost.com/{url}"}
-# rD = requests.post(os.getenv('DISCORD_WEBHOOK_URL'), data = data)
-# print('Uploaded to Discord!')
+# Discord response can be 200-204
+data = {'content': f"{title}:\n Read more at http://wereonlyalittlelost.com/{url}"}
+rD = requests.post(os.getenv('DISCORD_WEBHOOK_URL'), data = data)
+print('Uploaded to Discord!')
