@@ -65,16 +65,16 @@ client = pytumblr.TumblrRestClient(
 jpg_filtered_list = list(filter(lambda x: '.jpg' in x, split_lines))
 
 if len(jpg_filtered_list) > 0:
-    selected_image = jpg_filtered_list[0]
+    selected_images = jpg_filtered_list[0:2]
     client.create_photo(
         'wereonlyalittlelost', 
         state="published",
         tags=tags,
         format="markdown",
-        data=[selected_image],
+        data=selected_images,
         caption=f"## {title} \n Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
     )
-    print('Uploaded this image to Tumblr: ' + selected_image)
+    print('Uploaded images to Tumblr')
 else:
     client.create_link(
         'wereonlyalittlelost', 
