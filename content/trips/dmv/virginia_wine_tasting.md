@@ -1,7 +1,15 @@
 ---
 title: "Wine Tasting in Virginia"
 date: 2021-05-26
-tags: ["Virginia", "United States", "Bluemont", "Purcellville", "Hillsboro"]
+tags:
+  [
+    "Virginia",
+    "United States",
+    "Bluemont",
+    "Purcellville",
+    "Hillsboro",
+    "Wine Tasting",
+  ]
 draft: false
 ---
 

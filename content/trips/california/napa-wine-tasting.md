@@ -1,7 +1,7 @@
 ---
 title: "Napa Wine Tasting"
 date: 2021-04-06T14:53:24-07:00
-tags: ["California", "United States"]
+tags: ["California", "United States", "Napa", "Wine Tasting"]
 draft: false
 ---
 
