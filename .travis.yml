@@ -1,4 +1,11 @@
+sudo: required
+cache: pip
+
 language: python
+
+before_install:
+  - sudo apt-get install hugo
+
 install: skip
 
 script: bash run.sh

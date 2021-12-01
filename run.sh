@@ -1,21 +1,6 @@
 #!/bin/bash
 set -e
 echo "*** Starting build script ***"
-
-HUGO_RELEASE="hugo_0.55.6_Linux-64bit"
-AWS_RELEASE="aws-cli-1.14.37"
-
-echo "*** Install Linuxbrew ***"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
-
-test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
-test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
-echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
-
-echo "*** Install hugo from tar.gz ***"
-brew install hugo
-
 echo "*** Verifying Hugo! ***"
 hugo version
 
