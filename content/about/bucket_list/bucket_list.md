@@ -6,8 +6,8 @@ draft: false
 
 Looking forwards is how I stay sane. 
 
-United States
-* DC
+North America
+- [x] DC
 * Hawaii
 * Lassen Volcanic National Park
 * Badlands National Park (+ Mt Rushmore)
@@ -18,6 +18,8 @@ United States
 * Guadalupe Mountains National Park
 * Tucson, AZ
 * Tail of the Dragon
+* Banff National Park
+* Acadia National Park
 
 Europe / Mediterranean
 * Greece
@@ -30,9 +32,10 @@ Europe / Mediterranean
 
 Asia
 * Japan
+* Singapore
 
 Central / South America
 * Mexico City
 
-Canada
-* Banff National Park
+Caribbean
+* The Bahamas

@@ -62,10 +62,10 @@ client = pytumblr.TumblrRestClient(
     os.getenv('TUMBLR_TOKEN_SECRET'),
 )
 
-jpg_filtered_list = list(filter(lambda x: '.jpg' in x, split_lines))
+img_filtered_list = list(filter(lambda x: ('.jpg' in x or '.png' in x), split_lines))
 
-if len(jpg_filtered_list) > 0:
-    selected_images = jpg_filtered_list[0:2]
+if len(img_filtered_list) > 0:
+    selected_images = img_filtered_list[0:2]
     client.create_photo(
         'wereonlyalittlelost', 
         state="published",
