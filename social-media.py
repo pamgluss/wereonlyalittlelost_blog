@@ -76,7 +76,7 @@ if len(img_filtered_list) > 0:
         tags=tags,
         format="markdown",
         data=selected_images,
-        caption=f"## {title} \n {blogContent[:250]}... [Read more:]({BASE_URL}{url})"
+        caption=f"## {title} \n {blogContent[:200]}... [Read more]({BASE_URL}{url})"
     )
     print('Uploaded images to Tumblr')
 else:
@@ -85,8 +85,8 @@ else:
         state="published", 
         title=title,
         tags=tags,
-        url='http://wereonlyalittlelost.com/' + url,
-        description=f"{blogContent[:250]}... Read more in the link"
+        url=f"{BASE_URL}{url}",
+        description=f"{blogContent[:250]}..."
     )
     print('Uploaded a link to Tumblr')
 

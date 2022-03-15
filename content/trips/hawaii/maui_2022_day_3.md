@@ -17,7 +17,9 @@ We started off bright and early with a kayaking and snorkeling tour. We chose [K
 
 The start of the tour was kayaking in the bay and basically hunting down whales. Whenever we saw a spout, we'd paddle as fast as we could to get closer to them. It was pretty insane because we could hear the whale singing from the surface as we got closer. 
 
-We paid extra to get a GoPro for our tour, which ended up being 100% worth it because we paddled directly over some whales and were able to see them from the kayaks. I will try to upload some of the footage to YouTube and link it here.
+We paid extra to get a GoPro for our tour, which ended up being 100% worth it because we paddled directly over some whales and were able to see them from the kayaks. 
+
+[Here's a snippet of footage we got.](https://www.youtube.com/watch?v=AniJIzoUOcM)
 
 I will say that paddling a kayak is hard work! And definitely make sure to wear a ton of sunscreen. 
 

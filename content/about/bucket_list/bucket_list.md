@@ -8,15 +8,18 @@ Looking forwards is how I stay sane.
 
 North America
 - [x] DC
-* Hawaii
+- [x] Hawaii
 * Lassen Volcanic National Park
 * Badlands National Park (+ Mt Rushmore)
 * The Adirondacks
 * Minneapolis, MN
 * Yellowstone National Park
-* Grand Tetons
+* Great Smokey Mountains National Park
+* Grand Tetons National Park
 * Guadalupe Mountains National Park
 * Tucson, AZ
+* Saguaro National Park
+* Dry Tortugas National Park
 * Tail of the Dragon
 * Banff National Park
 * Acadia National Park
@@ -29,6 +32,7 @@ Europe / Mediterranean
 * Norway
 * Finland
 * Sweden
+* Iceland
 
 Asia
 * Japan
@@ -36,6 +40,8 @@ Asia
 
 Central / South America
 * Mexico City
+* Macchu Pichu
+* Patagonia
 
 Caribbean
 * The Bahamas
