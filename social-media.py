@@ -53,6 +53,10 @@ titleStart = fileString.find('title:')
 titleEnd = fileString.find('\n', titleStart) - 1
 title = fileString[titleStart:titleEnd].replace('title: "', '')
 
+# Get the first paragraph-ish out of the blog content
+contentSplit = fileString.split('---')
+blogContent = contentSplit[2]
+
 # Connect to Tumblr Oath client
 print('Connecting to Tumblr Oauth client')
 client = pytumblr.TumblrRestClient(
@@ -72,7 +76,7 @@ if len(img_filtered_list) > 0:
         tags=tags,
         format="markdown",
         data=selected_images,
-        caption=f"## {title} \n Read more here: [{BASE_URL}{url}]({BASE_URL}{url})"
+        caption=f"## {title} \n {blogContent[:250]}... [Read more:]({BASE_URL}{url})"
     )
     print('Uploaded images to Tumblr')
 else:
@@ -82,7 +86,7 @@ else:
         title=title,
         tags=tags,
         url='http://wereonlyalittlelost.com/' + url,
-        description="Follow the link to see the full blog post and pictures"
+        description=f"{blogContent[:250]}... Read more in the link"
     )
     print('Uploaded a link to Tumblr')
 
