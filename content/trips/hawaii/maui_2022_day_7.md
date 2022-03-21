@@ -1,5 +1,5 @@
 ---
-title: "Maui Day 5-6"
+title: "Maui Day 7-8"
 date: 2022-03-11
 tags: ['Maui','Hawaii','United States']
 draft: false

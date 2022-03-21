@@ -73,4 +73,8 @@ We were pretty exhausted after an hour and a half ish and turned in. Then it was
 
 ![DSC_0689](/images/DSC_0689.png)
 
-That night, the guys grilled us burgers with pineapple for dinner.
+That night, we headed to [Japengo](https://www.opentable.com/japengo-maui) for a sushi dinner to celebrate my friend's birthday. We managed to almost literally order every roll on the menu, plus some sashimi and nigiri. I thought it was pretty damn good sushi too.
+
+I don't think I'll ever get over receiving sushi on a boat.
+
+![IMG_3860](/images/IMG_3860.png)
