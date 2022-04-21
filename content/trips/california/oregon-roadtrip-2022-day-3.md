@@ -1,6 +1,6 @@
 ---
 title: "Oregon Road Trip - Day 3 (California Section)"
-date: 2022-04-11
+date: 2022-04-11T14:53:24-07:00
 tags: ["California", "United States", "Roadtrip", "Trillium Falls", "Jebediah Redwoods State Park", "Redwoods National Park", "Hiking"]
 draft: false
 ---
@@ -43,4 +43,4 @@ It was pretty funny hiking this one alone because there was a huge group of scho
 
 Since I still had 3 hours to drive, I hustled my way the 2.8 miles back from the falls. This is where I really wish I hadn't felt so rushed. 
 
-After this I crossed over to Oregon so you [can continue reading here.](../../oregon/oregon-roadtrip-2022-day-3).
+After this I crossed over to Oregon so you [can continue reading here.](../../oregon/oregon-roadtrip-2022-day-3)

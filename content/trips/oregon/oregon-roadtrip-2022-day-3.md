@@ -1,6 +1,6 @@
 ---
 title: "Oregon Road Trip - Day 3 (Oregon Section)"
-date: 2022-04-11
+date: 2022-04-11T16:53:24-07:00
 tags: ["Oregon", "United States", "Roadtrip", "Samuel H Boardman Scenic Corridor"]
 draft: false
 ---
