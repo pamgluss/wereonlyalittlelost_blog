@@ -44,7 +44,7 @@ Driving through Oregon, here's what I did and where I stayed.
   - Multnomah Falls
   - Oneonta Falls + Gorge
   - Horsetail / Ponytail Falls
-  - Ate ate the [historic lodge at Multnomah Falls](https://www.multnomahfallslodge.com/)
+  - Ate at the [historic lodge at Multnomah Falls](https://www.multnomahfallslodge.com/)
   - Wahclella Falls
 * Stayed in Mitchell, OR
   - Ate at [Tigertown Brewing](https://www.tigertownbrewing.com/), twice

@@ -9,7 +9,7 @@ By today I was falling asleep in my car much, much faster. And I even got to sle
 
 My first stop I actually had to backtrack a bit by 15 minutes to [Thor's Well](https://www.atlasobscura.com/places/thor-s-well). It was raining pretty hard for the fifteen or so minutes I was there so it was a little hard to look at. 
 
-There's spouting horn on the left hand side of the pull-off area, similar to [Nakalele Blowhole](../../trips/hawaii/maui_2022_day_3).
+There's spouting horn on the left hand side of the pull-off area, similar to [Nakalele Blowhole](../../hawaii/maui_2022_day_3).
 
 ![DSC_0855](/images/DSC_0855.png)
 
