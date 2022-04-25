@@ -69,7 +69,8 @@ client = pytumblr.TumblrRestClient(
 img_filtered_list = list(filter(lambda x: ('.jpg' in x or '.png' in x), split_lines))
 
 if len(img_filtered_list) > 0:
-    selected_images = img_filtered_list[0:2]
+    selected_images = img_filtered_list[0:3]
+    tags += ['pictures', 'trip', 'travel', 'adventure']
     client.create_photo(
         'wereonlyalittlelost', 
         state="published",
@@ -80,6 +81,7 @@ if len(img_filtered_list) > 0:
     )
     print('Uploaded images to Tumblr')
 else:
+    tags += ['journal', 'trip', 'travel', 'adventure']
     client.create_link(
         'wereonlyalittlelost', 
         state="published", 

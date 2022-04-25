@@ -52,10 +52,10 @@ After exploring the hotel, showering and washing my hair, and catching up on my 
 ![DSC_0893](/images/DSC_0893.png)
 
 I linked my source in the itinery page but here was the list of breweries I wanted to check out:
-- Buoy Beer sits right on the water and is one of the most well-known breweries in town. They have excellent beer and a surprisingly good clam chowder (one of the best we had on the coast).
+- Buoy Beer sits right on the water and is one of the most well-known breweries in town. They have excellent beer and a surprisingly good clam chowder
 - Fort George Brewery is nestled in the city’s historic district, and has great beer and and a tantalizing selection of wood fired pizzas.
 - Astoria Brewing Company was the first microbrewery in town, and it has great beers and a pretty extensive food menu with daily specials.
-- Reach Break Brewing has a nice outdoor patio, punctuated with a handful of food trucks. We tried the fish taco truck, and it was very good!
+- Reach Break Brewing has a nice outdoor patio, punctuated with a handful of food trucks.
 - Hondo’s Brewpub: Quaint local feel with a dog theme.
 
 Buoy Beer was closed that day so I had to skip, but I did walk by it along the boardwalk. 
@@ -66,7 +66,7 @@ Instead I started with [Astoria Brewing Company](https://astoriabrewingcompany.c
 
 At this point I liked wandering around but I knew I'd need real food before drinking any more. I was on my way over to Reach Break when I came across [Tora Sushi](https://torasushi.com/). Essentially I ate there on a whim, no recommendation. I don't know if I'd actually recommend it. 
 
-The food was fine but not as great as I'd imagine considering it's so close to the ocean. I got a sake flight here, but it wasn't an Oregon sake flight like I would've hoped for.
+The food was good but not as great as I'd imagine considering it's so close to the ocean. I got a sake flight here, but it wasn't an Oregon sake flight like I would've hoped for.
 
 ![DSC_0898](/images/DSC_0898.png)
 
