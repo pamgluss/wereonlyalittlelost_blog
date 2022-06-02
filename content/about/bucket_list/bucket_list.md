@@ -44,4 +44,4 @@ Central / South America
 * Patagonia
 
 Caribbean
-* The Bahamas
+- [x] The Bahamas
