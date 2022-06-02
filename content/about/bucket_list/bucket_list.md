@@ -10,7 +10,7 @@ North America
 - [x] DC
 - [x] Hawaii
 * Lassen Volcanic National Park
-* Badlands National Park (+ Mt Rushmore)
+- [x] Badlands National Park (+ Mt Rushmore)
 * The Adirondacks
 * Minneapolis, MN
 * Yellowstone National Park
