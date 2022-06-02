@@ -39,7 +39,7 @@ Here the GyPSy was really useful for plotting the way through the park. We stopp
 
 ![IMG_4322](/images/IMG_4322.png)
 
-It was super windy and cold at this point so we couldn't really hang out with the prairie dogs as much as I think we wanted to. The soil composition here is actually really similar to [Painted Hills](../../trips/oregon/oregon-roadtrip-2022-day-8.md) too but that meant it was super muddy everywhere too.
+It was super windy and cold at this point so we couldn't really hang out with the prairie dogs as much as I think we wanted to. The soil composition here is actually really similar to [Painted Hills](../../oregon/oregon-roadtrip-2022-day-8/) too but that meant it was super muddy everywhere too.
 
 From there we stopped a few times to view the canyon with all its formations, to see the vast prairie, and to do the Notch Trail Hike.
 
