@@ -1,7 +1,7 @@
 ---
 title: "Boston Day 3"
 date: 2020-02-16T22:34:21-05:00
-tags: ['Boston','Massachussetts','United States']
+tags: ['Boston','Massachusetts','United States']
 draft: false
 ---
 

@@ -35,7 +35,7 @@ Europe / Mediterranean
 * Iceland
 
 Asia
-* Japan
+- [x] Japan
 * Singapore
 
 Central / South America
