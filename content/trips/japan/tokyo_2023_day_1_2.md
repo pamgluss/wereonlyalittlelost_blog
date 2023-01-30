@@ -1,6 +1,6 @@
 ---
-title: "Tokyo 2023 Thursday-Friday"
-date: 2023-01-28
+title: "Tokyo 2023 Day 1-2"
+date: 2023-01-27
 tags: ['Tokyo','Japan','Shibuya', 'Harajuku', 'Akihabara']
 draft: false
 ---
