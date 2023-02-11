@@ -1,5 +1,5 @@
 ---
-title: "Tokyo 2023 Day 1-2"
+title: "Japan 2023 Day 1-2 - Tokyo"
 date: 2023-01-27
 tags: ['Tokyo','Japan','Shibuya', 'Harajuku', 'Akihabara']
 draft: false

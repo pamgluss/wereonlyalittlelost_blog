@@ -1,5 +1,5 @@
 ---
-title: "Tokyo 2023 Day 3"
+title: "Japan 2023 Day 3 - Tokyo"
 date: 2023-01-28
 tags: ['Tokyo','Japan','Shibuya', 'Harajuku', 'Akihabara']
 draft: false
@@ -40,6 +40,8 @@ Lunch was at the food court. Nothing like getting mall food in the US that's for
 I never thought I'd see so many Gundam figurines in my life. There are some really elaborate ones and I learned there's a [pretty detailed ranking system](https://en.wikipedia.org/wiki/Gundam_model#Grades) for size of the Gundam and fidelity of the details. For instance, there's 1/100 size of a "real" Gundam that could be considered "Master class" grade.
 
 ![DSC_2471](/images/DSC_2471.png)
+
+That night some of us went for massages at [Sri Attuthaya Thai](https://sriayutthayaspa.com/) massage in Shibuya. I can't personally speak to it since I went back to the hotel to do blog write ups but I heard mixed reviews from the group.
 
 For dinner we got [Tsukada Shabu Shabu](https://tabelog.com/en/tokyo/A1303/A130301/13240513/). Saturday night was brutal finding a place to eat in Shibuya. We stopped by Tsukada on the 12th floor and were told to expect an hour and a half wait. So we walked around town trying to find anything else with a better wait time but got turned away from everywhere else so ended up circling back and getting our original spot.
 
