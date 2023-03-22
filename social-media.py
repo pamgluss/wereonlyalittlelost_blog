@@ -92,15 +92,6 @@ else:
     )
     print('Uploaded a link to Tumblr')
 
-# Use python Request lib to upload data to Discord/Slack instead of a terminal cURL that depends on the commit message
-slackData = json.dumps({ "text": f"{title}: Read more here http://wereonlyalittlelost.com/{url}" })
-rS = requests.post(os.getenv('SLACK_WEBHOOK_URL'), data = slackData, headers={'Content-Type': 'application/json'})
-if rS.text == "ok":
-    print('Successfully uploaded to Slack!')
-else:
-    print('Something went wrong uploading to Slack')
-    print(rS)
-
 # Discord response can be 200-204
 data = {'content': f"{title}:\n Read more at http://wereonlyalittlelost.com/{url}"}
 rD = requests.post(os.getenv('DISCORD_WEBHOOK_URL'), data = data)
