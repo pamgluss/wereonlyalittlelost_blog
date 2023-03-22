@@ -78,7 +78,7 @@ jobs:
   social_media_post:
     env:
       COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
-      TRAVIS_BUILD_DIR: ${{ vars.GITHUB_WORKSPACE }}
+      TRAVIS_BUILD_DIR: $GITHUB_WORKSPACE
       TUMBLR_CONSUMER_KEY: ${{ vars.TUMBLR_CONSUMER_KEY }}
       TUMBLR_CONSUMER_SECRET: ${{ vars.TUMBLR_CONSUMER_SECRET }}
       TUMBLR_TOKEN: ${{ vars.TUMBLR_TOKEN }}
@@ -90,4 +90,4 @@ jobs:
       - name: install python
         uses: actions/setup-python@v4.5.0
       - name: Run entrypoint.sh
-        run: "bash ${{ vars.GITHUB_WORKSPACE }}/entrypoint.sh"
+        run: "bash $GITHUB_WORKSPACE/entrypoint.sh"
