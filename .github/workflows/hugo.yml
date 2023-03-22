@@ -76,7 +76,7 @@ jobs:
 
   # Post to Tumblr/Discord
   social_media_post:
-    environment:
+    env:
       COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
       TRAVIS_BUILD_DIR: ${{ vars.GITHUB_WORKSPACE }}
       TUMBLR_CONSUMER_KEY: ${{ vars.TUMBLR_CONSUMER_KEY }}
@@ -87,5 +87,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: deploy
     steps:
+      - name: install python
+        uses: actions/setup-python@v4.5.0
       - name: Run entrypoint.sh
         run: bash entrypoint.sh
