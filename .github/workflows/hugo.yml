@@ -90,4 +90,4 @@ jobs:
       - name: install python
         uses: actions/setup-python@v4.5.0
       - name: Run entrypoint.sh
-        run: bash entrypoint.sh
+        run: "bash ${{ vars.GITHUB_WORKSPACE }}/entrypoint.sh"
