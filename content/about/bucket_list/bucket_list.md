@@ -9,7 +9,7 @@ Looking forwards is how I stay sane.
 North America
 - [x] DC
 - [x] Hawaii
-* Lassen Volcanic National Park
+* [x] Lassen Volcanic National Park
 - [x] Badlands National Park (+ Mt Rushmore)
 * The Adirondacks
 * Minneapolis, MN
@@ -40,6 +40,7 @@ Asia
 
 Central / South America
 * Mexico City
+* Oaxaca City
 * Macchu Pichu
 * Patagonia
 

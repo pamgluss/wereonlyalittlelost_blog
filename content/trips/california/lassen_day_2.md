@@ -21,7 +21,7 @@ Note that us three are pretty experienced hikers and decently in shape. Only one
 
 The trailhead is at the southern entrance of the park, before you even pay at the entrance. The sign does say to pay first and come back, or put your National Park pass on the dash.
 
-Compared to [Lassen Peak](./lassen_day_1.md) this is MUCH more green. There's trees and creeks along the first two miles up which offer shade and cool breezes. It's also much more gentle of an incline since there's more mileage.
+Compared to [Lassen Peak](../../california/lassen_day_1/) this is MUCH more green. There's trees and creeks along the first two miles up which offer shade and cool breezes. It's also much more gentle of an incline since there's more mileage.
 
 ![PXL_20230722_163110539_2](/images/lassen/PXL_20230722_163110539_2.png)
 
