@@ -5,7 +5,7 @@ tags: ['Niseko','Japan', 'Hokkaido', 'Skiing']
 draft: false
 ---
 
-To get from Tokyo to Niseko we flew to Sapporo and then took a chartered cab the 2 or so hours drive. Flying domestically in Japan was pretty painless although it was a long day of taking the JR to the Skyliner to get to the airport, then actually flying, then doing the drive. You can take the Shinkasen but as I understand it it's a pretty long train ride.
+To get from Tokyo to Niseko we flew to Sapporo and then took a chartered cab the 2 or so hours drive. Flying domestically in Japan was pretty painless although it was a long day of taking the JR to the Skyliner to get to the airport, then actually flying, then doing the drive. You can take the Shinkansen but as I understand it it's a pretty long train ride.
 
 In Niseko we stayed at the [Vale Niseko](https://nisade.com/accommodation/the-vale-niseko) which is a ski in/ski out resort nestled at the bottom of the Hirafu section of the mountain. From our balcony we could see the lift for the family bunny hill!
 
