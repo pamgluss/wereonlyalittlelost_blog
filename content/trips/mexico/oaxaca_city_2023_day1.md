@@ -15,7 +15,7 @@ We were staying in the Jalatlaco neighborhood. It's a short walk to the action o
 
 For our first stop, we went to [Sabina Sabe](https://www.instagram.com/sabinasabeoaxaca/) which is a pretty famous bar and grill. I'd seen it before on [Somebody Feed Phil](https://en.wikipedia.org/wiki/Somebody_Feed_Phil) on Netflix.
 
-So we had mezcal cocktails, ceviche, mole amarillo, shrimp aguachile and chapulita (cricket) taquitos.
+So we had mezcal cocktails, ceviche, mole amarillo, shrimp aguachile and chapuline (cricket) taquitos.
 
 As you can see the presentation was lovely and the food was really good. It may have also been a huge relief to eat something besides resort or airport food for a change.
 

@@ -11,7 +11,7 @@ We went to a place called [Shinshindo Sanjo Kawaramachi](https://www.shinshindo.
 
 Then we met up with our friends who had to work that morning to start our shrine tour. Here's a [PDF shrine map for tourists](https://www.kyoto-plazahotel.co.jp/wp-content/themes/kyoto/images/english/kyoto-map.pdf) to reference.
 
-[Yasaka Shrine](https://www.yasaka-jinja.or.jp/en/) - starting in the Gion district and not too far from our hotel. Honestly with having seen Fushimi Inari [the day before](../japan/kyoto_2023_day_14_15.md) this was mainly standard faire for us by now.
+[Yasaka Shrine](https://www.yasaka-jinja.or.jp/en/) - starting in the Gion district and not too far from our hotel. Honestly with having seen Fushimi Inari [the day before](../japan/kyoto_2023_day_14_15) this was mainly standard faire for us by now.
 
 ![DSC_2792](/images/DSC_2792.png)
 

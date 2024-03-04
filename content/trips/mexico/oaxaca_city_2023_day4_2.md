@@ -35,7 +35,7 @@ Look at all this mezcal! They had infusions of all different kinds and all the d
 
 ![cooking_class_5](/images/mexico/cooking_class_5.png)
 
-We also sampled a bunch of common Oaxacan appetizers including spiced fruits and nuts as well as insects like chapulina (grasshoppers) and ants. I barely was able to get myself to eat the ant but once I convinced my brain to let me, it was actually really good.
+We also sampled a bunch of common Oaxacan appetizers including spiced fruits and nuts as well as insects like chapuline (grasshoppers) and ants. I barely was able to get myself to eat the ant but once I convinced my brain to let me, it was actually really good.
 
 At this point we were up and about and listening carefully while Baldo explained the hows and whys of various foods. So my pictures are a little sparse.
 

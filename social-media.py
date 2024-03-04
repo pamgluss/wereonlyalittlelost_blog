@@ -13,6 +13,7 @@ import json
 # load_dotenv(dotenv_path=env_path)
 
 BASE_URL = 'http://wereonlyalittlelost.com/'
+UTM_STRING = '?utm_source='
 
 # Get the recent changed images from the git commit
 repo = Repo(os.getenv('TRAVIS_BUILD_DIR'))
@@ -66,33 +67,34 @@ client = pytumblr.TumblrRestClient(
     os.getenv('TUMBLR_TOKEN_SECRET'),
 )
 
+tumblr_url = "{BASE_URL}{url}{UTM_STRING}tumblr"
 img_filtered_list = list(filter(lambda x: ('.jpg' in x or '.png' in x), split_lines))
 
 if len(img_filtered_list) > 0:
     selected_images = img_filtered_list[0:3]
-    tags += ['pictures', 'trip', 'travel', 'adventure']
+    tags += ['pictures', 'trip', 'travel', 'adventure', 'blog']
     client.create_photo(
         'wereonlyalittlelost', 
         state="published",
         tags=tags,
         format="markdown",
         data=selected_images,
-        caption=f"## {title} \n {blogContent[:200]}... [Read more]({BASE_URL}{url})"
+        caption=f"## {title} \n {blogContent[:200]}... [Read more]({tumblr_url})"
     )
     print('Uploaded images to Tumblr')
 else:
-    tags += ['journal', 'trip', 'travel', 'adventure']
+    tags += ['journal', 'trip', 'travel', 'adventure', 'blog']
     client.create_link(
         'wereonlyalittlelost', 
         state="published", 
         title=title,
         tags=tags,
-        url=f"{BASE_URL}{url}",
+        url=tumblr_url,
         description=f"{blogContent[:250]}..."
     )
     print('Uploaded a link to Tumblr')
 
 # Discord response can be 200-204
-data = {'content': f"{title}:\n Read more at http://wereonlyalittlelost.com/{url}"}
+data = {'content': f"{title}:\n Read more at {BASE_URL}{url}{UTM_STRING}discord"}
 rD = requests.post(os.getenv('DISCORD_WEBHOOK_URL'), data = data)
 print('Uploaded to Discord!')
