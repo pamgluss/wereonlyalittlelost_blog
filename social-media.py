@@ -67,7 +67,7 @@ client = pytumblr.TumblrRestClient(
     os.getenv('TUMBLR_TOKEN_SECRET'),
 )
 
-tumblr_url = "{BASE_URL}{url}{UTM_STRING}tumblr"
+tumblr_url = f"{BASE_URL}{url}{UTM_STRING}tumblr"
 img_filtered_list = list(filter(lambda x: ('.jpg' in x or '.png' in x), split_lines))
 
 if len(img_filtered_list) > 0:
