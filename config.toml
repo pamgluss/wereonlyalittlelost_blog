@@ -2,6 +2,7 @@ baseURL = "http://wereonlyalittlelost.com/"
 languageCode = "en-us"
 title = "We're Only a Little Lost"
 theme = "lost_theme"
+enableRobotsTXT = true
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"

@@ -1,6 +1,6 @@
 ---
 title: "Bucket List"
-date: 2020-04-06
+date: 2025-08-31
 draft: false
 ---
 
@@ -9,7 +9,7 @@ Looking forwards is how I stay sane.
 North America
 - [x] DC
 - [x] Hawaii
-* [x] Lassen Volcanic National Park
+- [x] Lassen Volcanic National Park
 - [x] Badlands National Park (+ Mt Rushmore)
 * The Adirondacks
 * Minneapolis, MN
@@ -29,7 +29,7 @@ Europe / Mediterranean
 * Italy
   - Rome
   - Amalfi Coast
-* Norway
+- [x] Norway
 * Finland
 * Sweden
 * Iceland
@@ -40,7 +40,7 @@ Asia
 
 Central / South America
 * Mexico City
-* Oaxaca City
+- [x] Oaxaca City
 * Macchu Pichu
 * Patagonia
 
