@@ -9,7 +9,7 @@ Since half of this trip was spent drinking in the Airbnb pool, I'll just condens
 
 With a third friend involved and some research on Airbnbs, we landed on Scottsdale, which is right next to Phoenix. Even in October it was [going to be in the 100s for the entire first half of the week](https://www.youtube.com/watch?v=4PYt0SDnrBE). For total luxury our pool had heating, and we had a hot tub!
 
-![20201006_081334](/images/20201006_081334.jpg)
+![20201006_081334](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/20201006_081334.jpg)
 
 We left bright and early on a Monday morning and knocked the 12 hour drive out. Tuesday and Wednesday I think I spent a good amount of my days drinking Whiteclaw and floating in the pool. I also did some painting for [Inktober](https://inktober.com/) and reading. Unfortunately I'm behind on both endeavors. I still need to read 12 more books in 2020! 
 
@@ -17,21 +17,21 @@ Thursday it was going to be hot again but I really wanted to break up the days w
 
 The first section is relatively flat and has nice views of all the cacti.
 
-![20201008_100246](/images/20201008_100246.jpg)
+![20201008_100246](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/20201008_100246.jpg)
 
 The main thing to know about this trail is that there's very little to no shade until you get nearly to the top. The top does have a cave (or, more accurately, a rock alcove) where you can cool off and enjoy the views before descending. 
 
 We saw a bunch of little chipmunks at the top, including this absolute chonk who appeared to be king of the mountain:
 
-![20201008_114224](/images/20201008_114224.jpg)
+![20201008_114224](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/20201008_114224.jpg)
 
 The shady cave:
 
-![20201008_114020](/images/20201008_114020.jpg)
+![20201008_114020](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/20201008_114020.jpg)
 
 The view:
 
-![20201008_113135](/images/20201008_113135.jpg)
+![20201008_113135](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/20201008_113135.jpg)
 
 I'm not totally sure what that green mossy stuff is on the mountain walls. I presume moss but, it does seem weird with how dry things are there'd be moss!
 
