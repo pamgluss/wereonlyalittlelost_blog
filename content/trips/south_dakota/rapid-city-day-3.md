@@ -13,15 +13,15 @@ We started with the [Jewel Cave Scenic tour](https://www.nps.gov/jeca/planyourvi
 
 The name Jewel Cave does not come from actual jewels. Instead, it's for these run of the mill crystal veins:
 
-![PXL_20220514_173834819_MP](/images/PXL_20220514_173834819_MP.png)
+![PXL_20220514_173834819_MP](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/PXL_20220514_173834819_MP.png)
 
 The rock formations were pretty cool. There's some stuff that looks like an alien planet, and then you can see right in the middle of this picture a rock straw.
 
-![DSC_1262](/images/DSC_1262.png)
+![DSC_1262](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/DSC_1262.png)
 
 This is what the tour guide called cave bacon:
 
-![IMG_4371](/images/IMG_4371.png)
+![IMG_4371](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/IMG_4371.png)
 
 We had time in between tours to eat lunch that we had packed. The parks are roughly thirty minutes from each other.
 
@@ -29,13 +29,13 @@ Wind Cave is an ordained national park, but it's actually smaller which is inter
 
 It was first discovered by this tiny hole making a whistling sound.
 
-![DSC_1265](/images/DSC_1265.png)
+![DSC_1265](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/DSC_1265.png)
 
 Inside it's not that different from Jewel Cave. The ambience was a little different, and this cave had a story of the early tours where a 17 year old kid explored many miles of it by candle light and a string. They also used to take tours with people where he'd decide to randomly explore a new leaf of the cave with tourists in tow.
 
 I thought these postbox formations were really cool!
 
-![PXL_20220514_205912579](/images/PXL_20220514_205912579.png)
+![PXL_20220514_205912579](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/PXL_20220514_205912579.png)
 
 The deepest parts of these caves are continued to be explored by volunteer spelunkers. It blows my mind because the guide described getting to unexplored sections requires doing miles of belly crawling through tight passageways. But down at the bottom there's a bunch of cool, unexplained rooms and phenomena like underground lakes that are weird colors for unknown reasons.
 
@@ -43,7 +43,7 @@ After we finished up things get a little hazy because we decided we'd do some wi
 
 We started at [Twisted Pine Tasting Room](https://twistedpinetastingroom.com/) in Hill City. The woman helping us was delightful. The wines were pretty sweet, not much more to say than that. I think I can say the wine was smoother than I expected and I didn't get a horrible hang over later.
 
-![DSC_1273](/images/DSC_1273.png)
+![DSC_1273](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/DSC_1273.png)
 
 From there we headed to [Firehouse Brewing Company](https://www.firehousebrewing.com/) where we got flights of wine and much, much needed food. I thought the burger was actually really good, and the wines were also really fun and interesting. All of us got to try different types of wine too which was cool. The bartender was also pretty funny and chatted with us.
 
