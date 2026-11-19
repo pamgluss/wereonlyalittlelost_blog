@@ -15,13 +15,13 @@ Crossing the border was no big deal although it did require me to carry my passp
 
 We were actually starving hungry so as soon as we were settled in we headed to lunch. My friend's friend really likes [L'Express](https://restaurantlexpress.com/) which is a fancy french bistro. I got the rissotto which was fine but I tried a sample of my friend's duck and that seems like a MUST have.
 
-![montreal_lunch](/images/canada/montreal_lunch.png)
+![montreal_lunch](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/canada/montreal_lunch.png)
 
 At lunch we happened to run into some friends from Toronto that my friend had originally met in Mexico! They just happened to be on a trip to Montreal at the same time as us. So they joined us for the rest of the afternoon. 
 
 We popped by a grocery store to pick up some cold drinks and went to [Park la Fontaine](https://www.mtl.org/en/what-to-do/activities/parc-la-fontaine) to hang out on the grass and chat.
 
-![montreal_parc_fontaine](/images/canada/montreal_parc_fontaine.png)
+![montreal_parc_fontaine](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/canada/montreal_parc_fontaine.png)
 
 Parc La Fontaine is much cleaner than Golden Gate Park or even Barton Springs in Austin. But it's basically just a pond with some grass and trees. I'm sorry! I guess it showed up in "things to do in Montreal" lists so often I thought there'd be a bit more to it.
 
@@ -37,10 +37,10 @@ We got bagels at [Fairmont Bagel](https://fairmountbagel.com/) but we got bamboo
 
 From there we kinda just ambled around and popped into one or two thrift stores before settling down for a drink at [Nili](https://www.nilimtl.com/). They have food too but we just had cocktails and they were really good! I would recommend. Also this place had a neat atmosphere and we got free postcards.
 
-![montreal_nili_drink](/images/canada/montreal_nili_drink.png)
+![montreal_nili_drink](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/canada/montreal_nili_drink.png)
 
 From there we took the metro back to our car and saw the sunset over Montreal on our way.
 
-![montreal_sunset](/images/canada/montreal_sunset.png)
+![montreal_sunset](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/canada/montreal_sunset.png)
 
 I think I'll need to come back someday and dedicate more time to getting to know this city! 
