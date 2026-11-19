@@ -15,23 +15,23 @@ We ran into a couple who also said they saw a bear in the meadow nearby the entr
 
 This trail has some really beautiful green parts but also it's clear where the fire totally destroyed big sections. It's crazy to see.
 
-![DSC_0093](/images/lassen/DSC_0093.png)
+![DSC_0093](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/lassen/DSC_0093.png)
 
-![DSC_0085](/images/lassen/DSC_0085.png)
+![DSC_0085](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/lassen/DSC_0085.png)
 
 At the actual waterful the viewing platform isn't the greatest angle and you can't get too close but it's still pretty. Worth seeing!
 
-![DSC_0090](/images/lassen/DSC_0090.png)
+![DSC_0090](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/lassen/DSC_0090.png)
 
 On the way back up you could go back the way you came or you can follow along the creek up a steep rocky stairway. Going up along the creek is totally worth it, it's gorgeous.
 
-![DSC_0099](/images/lassen/DSC_0099.png)
+![DSC_0099](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/lassen/DSC_0099.png)
 
 It is steep so take your time and watch your step!
 
 And here's a picture just back at the top in the meadowy area closer to the parking area.
 
-![DSC_0100](/images/lassen/DSC_0100.png)
+![DSC_0100](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/lassen/DSC_0100.png)
 
 Considering the views and the flexibility of the hike to be longer or shorter, harder or easier, I'd highly recommend this hike for those staying a little longer at Lassen!
 
