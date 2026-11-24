@@ -18,17 +18,17 @@ The plus side is that the campground has a swimming pool, so during the hot part
 
 Since it was so hot we originally decided to stick to [Moses Spring to Rim Trail Loop](https://www.nps.gov/pinn/planyourvisit/trails.htm) described as an easy 2.2 miles with great views. Which, it totally does! 
 
-![pinnacles_1](/images/california/pinnacles_1.jpg)
+![pinnacles_1](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/california/pinnacles_1.jpg)
 
-![pinnacles_2](/images/california/pinnacles_2.jpg)
+![pinnacles_2](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/california/pinnacles_2.jpg)
 
 Totally worth it just to get to the reservoir, which is a great spot for a snack and water break.
 
-![pinnacles_3](/images/california/pinnacles_3.jpg)
+![pinnacles_3](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/california/pinnacles_3.jpg)
 
 For some of us, that wasn't good enough though, so we kept going after the reservoir on Chalone Peak Trail which can be 9 miles round trip although we stopped early and turned around, getting to a total of 5.9 miles instead. Worth it for the views!
 
-![pinnacles_4](/images/california/pinnacles_4.jpg)
+![pinnacles_4](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/california/pinnacles_4.jpg)
 
 It was so hot that on Sunday we just packed up camp and headed home haha. But overall I would say the camping trip was good, just plan to come back in the shoulder months when it's a bit cooler. 
 
