@@ -17,23 +17,23 @@ Here are some articles I read to help me plan
 
 My flight got delayed by about 18 hours so we missed some midday hang out time but we were able to hit up the [farmer's market Saturday morning](https://burlingtonfarmersmarket.org/). As a Californian it was a bit underwhelming -- feels like a pretty typical farmer's market to me. I think the main draw is how the whole town comes together. You can get coffee, produce, snacks and even clothing while listening to live music.
 
-![farmers_market_1](/images/vermont/farmers_market_1.png)
+![farmers_market_1](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/vermont/farmers_market_1.png)
 
 We got some produce and fish to make fish tacos for later in the weekend!
 
-![farmers_market_2](/images/vermont/farmers_market_2.png)
+![farmers_market_2](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/vermont/farmers_market_2.png)
 
 Besides the farmer's market, there's the infamous bike path. It's a nearly [20 mile trail](https://d3n8a8pro7vhmx.cloudfront.net/localmotion/pages/287/attachments/original/1578495944/2019-3_IslandLineMap.pdf) that goes along the water and out along a causeway. To complete the trail, you take a little bicycle barge to cross onto an island. We didn't take the barge (because we were already at 10 miles and had more to do) and turned around there. 
 
 It is well worth doing, pretty flat, and highly customizable to your desired difficulty level. 
 
-![bike_path_3](/images/vermont/bike_path_3.png)
+![bike_path_3](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/vermont/bike_path_3.png)
 
 It was a beautiful day and on the weekend besides so I made sure to book my [bicycle rental in advance](https://www.localmotion.org/bike_rentals). When I arrived all the bikes had been rented out.
 
-![bike_path_1](/images/vermont/bike_path_1.png)
+![bike_path_1](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/vermont/bike_path_1.png)
 
-![bike_path_2](/images/vermont/bike_path_2.png)
+![bike_path_2](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/vermont/bike_path_2.png)
 
 On the way back we stopped at [Foam Brewers brewery](https://www.foambrewers.com/). It's right off the bike path and has a food truck for burgers and a nice big beer selection.
 
