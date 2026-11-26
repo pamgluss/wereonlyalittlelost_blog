@@ -1,15 +1,12 @@
-baseURL = "http://wereonlyalittlelost.com/"
+baseURL = "https://wereonlyalittlelost.com/"
 languageCode = "en-us"
 title = "We're Only a Little Lost"
 theme = "lost_theme"
 enableRobotsTXT = true
 
-MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-features = ["trips", "about"]
 Paginate = 10
-googleAnalytics = 'UA-162125259-1'
 
 [params]
   favicon = "/images/favicon.png"

@@ -14,14 +14,16 @@
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ end }}
 
-    {{ $stylesheet := .Site.Data.webpack_assets.app }}
-    {{ with $stylesheet.css }}
-      <link href="{{ relURL (printf "%s%s" "dist/" .) }}" rel="stylesheet">
+    {{ $description := .Site.Params.description }}
+    {{ if not .IsHome }}
+      {{ $summary := trim (replaceRE `\s+` " " (.Summary | plainify | htmlUnescape) | truncate 160) " " }}
+      {{ $description = .Description | default $summary | default $description }}
     {{ end }}
+    {{ with $description }}<meta name="description" content="{{ . }}">{{ end }}
 
-    {{ range .Site.Params.custom_css }}
-      <link rel="stylesheet" href="{{ relURL ($.Site.BaseURL) }}{{ . }}">
-    {{ end }}
+    {{/* base.css is Tachyons plus the original theme rules; custom.css is where site styles are edited. */}}
+    {{ $css := slice (resources.Get "css/base.css") (resources.Get "css/custom.css") | resources.Concat "css/site.css" | minify | fingerprint }}
+    <link href="{{ $css.RelPermalink }}" rel="stylesheet" integrity="{{ $css.Data.Integrity }}">
 
     {{ block "favicon" . }}
       {{ partialCached "site-favicon.html" . }}
@@ -38,10 +40,6 @@
     {{- template "_internal/opengraph.html" . -}}
     {{- template "_internal/schema.html" . -}}
     {{- template "_internal/twitter_cards.html" . -}}
-
-    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
-      {{ template "_internal/google_analytics_async.html" . }}
-    {{ end }}
   </head>
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
@@ -51,6 +49,6 @@
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
-    {{ block "scripts" . }}{{ partialCached "site-scripts.html" . }}{{ end }}
+    {{ block "scripts" . }}{{ end }}
   </body>
 </html>

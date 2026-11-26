@@ -2,7 +2,7 @@
 
 Pam's travel blog which used to live here: [link](https://wereonlyalittlelost.tumblr.com/)
 
-Now lives here: [link](http://wereonlyalittlelost.com/)
+Now lives here: [link](https://wereonlyalittlelost.com/)
 
 Hugo is written in Go and converts markdown into HTML pages. I'm using Github Actions to automatically deploy the static build to Github Pages.
 
@@ -18,6 +18,15 @@ Hugo is written in Go and converts markdown into HTML pages. I'm using Github Ac
 2. Create a new blog post with `hugo new content/trips/<place>/<post>.md`
 3. Run `hugo server` and you'll get a message like `Web Server is available at http://localhost:1313/`
 4. Open the localhost url to view the new post
+
+## Theme and styles
+
+The theme in `themes/lost_theme` started as a copy of [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke) and has been cut down to what this site uses.
+
+- `assets/css/base.css` is Tachyons plus the original theme rules. Leave it alone.
+- `assets/css/custom.css` is where site styles go. Edit it and reload; Hugo bundles and fingerprints both files on every build. There is no npm or webpack step.
+
+CI builds with the Hugo version pinned in `.github/workflows/hugo.yml`. Keep your local Hugo on the same version.
 
 ## Contributing
 
