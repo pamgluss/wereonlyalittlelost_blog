@@ -3,6 +3,9 @@
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
     &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
   </a>
-    <div>{{ partial "social-follow.html" . }}</div>
+    <div class="flex items-center">
+      {{ with .Site.GetPage "/privacy" }}<a class="f6 hover-white no-underline white-70 mr3" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+      {{ partial "social-follow.html" . }}
+    </div>
   </div>
 </footer>
