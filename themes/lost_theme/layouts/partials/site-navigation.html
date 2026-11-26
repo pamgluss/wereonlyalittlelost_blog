@@ -15,6 +15,12 @@
           {{ end }}
         </ul>
       {{ end }}
+      {{/* Hidden until assets/js/search.js runs, so readers without JS don't see a dead box. */}}
+      <div class="site-search" data-search data-index="{{ "index.json" | relURL }}" hidden>
+        <label class="clip" for="site-search-input">Search trips, tags and posts</label>
+        <input id="site-search-input" type="search" placeholder="Search trips, tags, posts" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="site-search-results" aria-autocomplete="list">
+        <div id="site-search-results" role="listbox" aria-label="Search results" hidden></div>
+      </div>
       {{ partialCached "social-follow.html" . }}
     </div>
   </div>

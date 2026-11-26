@@ -1,0 +1,19 @@
+{{- /* Search index for the header search box: trips (places), tags and post titles. */ -}}
+{{- $trips := slice -}}
+{{- with .Site.GetPage "/trips" -}}
+  {{- range .Sections.ByTitle -}}
+    {{- $count := len .RegularPagesRecursive -}}
+    {{- if gt $count 0 -}}
+      {{- $trips = $trips | append (dict "title" .Title "url" .RelPermalink "count" $count) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $tags := slice -}}
+{{- range .Site.Taxonomies.tags.ByCount -}}
+  {{- $tags = $tags | append (dict "title" .Page.Title "url" .Page.RelPermalink "count" .Count) -}}
+{{- end -}}
+{{- $posts := slice -}}
+{{- range where .Site.RegularPages "Section" "trips" -}}
+  {{- $posts = $posts | append (dict "title" .Title "url" .RelPermalink "date" (.Date.Format "2006-01-02") "trip" .CurrentSection.Title "tags" (.Params.tags | default slice)) -}}
+{{- end -}}
+{{- dict "trips" $trips "tags" $tags "posts" $posts | jsonify -}}
