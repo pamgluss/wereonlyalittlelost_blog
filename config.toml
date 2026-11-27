@@ -8,6 +8,9 @@ DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 10
 
+[services.googleAnalytics]
+  ID = "G-B0BLVNPTFT"
+
 [outputs]
   # JSON on the home page is the index the header search box reads.
   home = ["HTML", "RSS", "JSON"]
