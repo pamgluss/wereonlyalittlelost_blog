@@ -24,14 +24,14 @@ Paginate = 10
   recent_copy = "Latest Posts"
   home = "Home"
 
-# Google AdSense. Ads stay off until `client` is filled in.
+# Google AdSense. `client` loads the AdSense script on every page; ad units only
+# appear once the slot IDs below are filled in.
 #   client:    your publisher ID, e.g. "ca-pub-1234567890123456"
 #   slot_post: ad unit ID for the unit beside posts
 #   slot_list: ad unit ID for the unit under trip and tag listings
-# When you set `client`, also add static/ads.txt containing:
-#   google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
+# static/ads.txt carries the same publisher ID; keep the two in step.
 [params.adsense]
-  client = ""
+  client = "ca-pub-2482294114571790"
   slot_post = ""
   slot_list = ""
 
