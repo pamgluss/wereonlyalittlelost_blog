@@ -20,4 +20,7 @@ The site is hosted on GitHub Pages, and some photos are served from Cloudflare. 
 
 ## Analytics
 
-This site does not run analytics.
+This site uses Google Analytics to count visits and see which posts are read. Google Analytics sets cookies and collects information such as the pages you view, your approximate location, and your browser and device type. It does not tell me who you are.
+
+- [How Google uses information from sites that use its services](https://policies.google.com/technologies/partner-sites)
+- You can opt out with the [Google Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout).
