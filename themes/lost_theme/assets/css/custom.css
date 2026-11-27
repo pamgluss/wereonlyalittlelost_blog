@@ -106,3 +106,39 @@
     transition: none;
   }
 }
+
+/* Ad slots (partials/ad-slot.html) */
+.ad-slot {
+  margin: 2rem auto;
+  max-width: 48rem;
+  text-align: center;
+}
+
+.ad-slot__label {
+  margin: 0 0 .25rem;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, arial, sans-serif;
+  font-size: .7rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #777;
+}
+
+/* Hold the space while the ad loads so the page doesn't jump. */
+.ad-slot ins,
+.ad-slot__placeholder {
+  min-height: 250px;
+}
+
+.ad-slot__placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .875rem;
+  color: #777;
+  border: 1px dashed #aaa;
+}
+
+/* AdSense marks a unit it couldn't fill; hide the whole slot, not an empty box. */
+.ad-slot:has(ins[data-ad-status="unfilled"]) {
+  display: none;
+}

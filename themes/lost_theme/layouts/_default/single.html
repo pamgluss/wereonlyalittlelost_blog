@@ -52,6 +52,9 @@
 
     <aside class="w-30-l mt6-l">
       {{- partial "menu-contextual.html" . -}}
+      {{- if eq .Section "trips" -}}
+        {{- partial "ad-slot.html" (dict "page" . "slot" "slot_post") -}}
+      {{- end -}}
     </aside>
 
   </article>

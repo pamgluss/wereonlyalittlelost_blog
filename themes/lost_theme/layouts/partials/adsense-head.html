@@ -1,0 +1,6 @@
+{{- /* Loads AdSense only when params.adsense.client is set and this is a production build. */ -}}
+{{- with .Site.Params.adsense.client -}}
+  {{- if eq (getenv "HUGO_ENV") "production" }}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>
+  {{- end -}}
+{{- end -}}

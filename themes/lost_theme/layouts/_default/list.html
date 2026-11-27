@@ -11,5 +11,6 @@
       {{ end }}
     </section>
     {{- template "_internal/pagination.html" . -}}
+    {{- partial "ad-slot.html" (dict "page" . "slot" "slot_list") -}}
   </article>
 {{ end }}

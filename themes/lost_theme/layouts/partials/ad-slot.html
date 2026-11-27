@@ -1,0 +1,19 @@
+{{- /*
+  One ad unit. Call with (dict "page" . "slot" "slot_post") where the slot name is a key under params.adsense.
+  Renders nothing unless both params.adsense.client and that slot ID are set.
+  Outside production it draws a placeholder box so you can see the placement without loading real ads.
+*/ -}}
+{{- $adsense := .page.Site.Params.adsense | default dict -}}
+{{- $client := index $adsense "client" -}}
+{{- $slot := index $adsense .slot -}}
+{{- if and $client $slot -}}
+  <aside class="ad-slot" aria-label="Advertisement">
+    <p class="ad-slot__label">Advertisement</p>
+    {{- if eq (getenv "HUGO_ENV") "production" }}
+      <ins class="adsbygoogle" style="display:block" data-ad-client="{{ $client }}" data-ad-slot="{{ $slot }}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    {{- else }}
+      <div class="ad-slot__placeholder">Ad placeholder ({{ .slot }})</div>
+    {{- end }}
+  </aside>
+{{- end -}}
