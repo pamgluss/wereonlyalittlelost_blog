@@ -49,6 +49,9 @@
       {{ block "main" . }}{{ end }}
     </main>
     {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
-    {{ block "scripts" . }}{{ end }}
+    {{ block "scripts" . }}
+      {{ $search := resources.Get "js/search.js" | minify | fingerprint }}
+      <script src="{{ $search.RelPermalink }}" integrity="{{ $search.Data.Integrity }}" defer></script>
+    {{ end }}
   </body>
 </html>
