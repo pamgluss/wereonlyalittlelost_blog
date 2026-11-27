@@ -9,11 +9,11 @@ This, along with [Wild Basin](/trips/texas/wild_basin/), is not a state park, bu
 
 The first thing I noticed was how much elevation gain there was on the trail. There are sizable hills that you walk up and down, and decently nice views. I also found myself surprisingly out of breath on the first uphill stretch!
 
-![20200314_123900](/images/20200314_123900.jpg)
+![20200314_123900](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/texas/20200314_123900.jpg)
 
 I also liked the variety of terrain we walked through - there are wooded areas, grassy fields, rocky areas, and even a creek crossing.
 
-![20200314_122423](/images/20200314_122423.jpg)
+![20200314_122423](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/texas/20200314_122423.jpg)
 
 I will say that I already packed up my hiking boots and camelbak in preparation to move, so I was wearing my fashion boots with thin soles, plus wearing jeans, plus holding an 8 oz water bottle for this hike. So you might say I was woefully unprepared. I probably would've thought the hike was very easy if I was wearing the right clothing.
 
@@ -21,7 +21,7 @@ For lunch I usually crave hamburgers, but we happened to be driving by [Interste
 
 They still had lean brisket and chopped brisket so I got a chopped brisket sandwich with a side of mac and cheese.
 
-![20200314_144805](/images/20200314_144805.jpg)
+![20200314_144805](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/texas/20200314_144805.jpg)
 
 I've said it before and I'll say it again, I just don't think I like Texas barbeque that much. I didn't mind my sandwich and I ate as much as I could, but it's just not something I would rave about or drive out of my way to get again. The mac and cheese was pretty decent though, I'll give them that. It's not always worth it to get that at barbeque places.
 
