@@ -12,8 +12,6 @@
   var options = [];
   var active = -1;
 
-  root.hidden = false;
-
   function normalize(text) {
     return String(text).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
   }
