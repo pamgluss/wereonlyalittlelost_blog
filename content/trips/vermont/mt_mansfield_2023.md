@@ -15,29 +15,29 @@ We were hiking with my friend's dog and expected it to get pretty hot that day s
 
 Illustrating how stupidly steep it was with my friend for reference.
 
-![mansfield_2](/images/vermont/mansfield_2.png)
+![mansfield_2](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/vermont/mansfield_2.png)
 
 Thankfully it's decently shaded and lush with flowers, bushes and trees.
 
-![mansfield_1](/images/vermont/mansfield_1.png)
+![mansfield_1](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/vermont/mansfield_1.png)
 
-![mansfield_flowers_1](/images/vermont/mansfield_flowers_1.png)
+![mansfield_flowers_1](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/vermont/mansfield_flowers_1.png)
 
 To get to the ridgeline we had to basically rock climb and push the dog up some of the steeper parts. But the views from along the ridge at the top were sublime.
 
-![mansfield_3](/images/vermont/mansfield_3.png)
+![mansfield_3](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/vermont/mansfield_3.png)
 
-![mansfield_4](/images/vermont/mansfield_4.png)
+![mansfield_4](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/vermont/mansfield_4.png)
 
 We ate lunch at the top and I think were feeling very pleased with ourselves indeed. It was probably 3 PM at this point so we wanted to hurry along to get down before dark. Instead of going back down the way we came, we continued along the ridge for a mile or so, then descended on the Haselton Trail. The ridge is pretty awesome for the 360 degree view of the rolling mountains so I recommend it.
 
 There's also something novel about hiking down what is evidently a black diamond ski slope!
 
-![mansfield_5](/images/vermont/mansfield_5.png)
+![mansfield_5](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/vermont/mansfield_5.png)
 
 I always wondered what ski slopes would look like without all the snow...!
 
-![mansfield_6](/images/vermont/mansfield_6.png)
+![mansfield_6](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/vermont/mansfield_6.png)
 
 After this shot things were getting dicey. It was very steep getting down, and rocky and gravely. Also we were losing daylight and the trail goes down into woods again. So we kinda stopped talking and taking pictures and started focusing on really hoofing it down the hill. 
 
@@ -45,7 +45,7 @@ It took us probably 2 more hours to descend, getting us back to our car at about
 
 We had to wait about 45 minutes for dinner in Stowe at [Idletime Brewing Company](https://idletymebrewing.com/). We spent our time waiting getting gatorade from the nearby convenience store and hydrating in the air conditioned car. The wait was all the worth it for my beer flight and burger.
 
-![dinner_1](/images/vermont/dinner_1.png)
+![dinner_1](https://pub-6552d22062234bd394ccc7a815d71ba7.r2.dev/images/vermont/dinner_1.png)
 
 So I guess all in all I'd actually say I _survived_ Mount Mansfield but it sure kicked my butt!
 
