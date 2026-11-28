@@ -10,7 +10,7 @@ Hugo is written in Go and converts markdown into HTML pages. I'm using Github Ac
 
 1. Install brew
 2. Install python `brew install python`
-3. Install pytumblr and gitpython with pip
+3. Install requests_oauthlib and gitpython with pip
 
 ## How to Run
 

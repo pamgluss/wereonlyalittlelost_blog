@@ -10,11 +10,11 @@ DIFF=$(git diff HEAD~1..HEAD --name-only)
 # and b) no exclude keyword in the commit message
 if [[ "$DIFF" == *".md"* ]] && [[ "${COMMIT_MESSAGE}" != *"exclude"* ]]; 
 then
-    echo "*** Installing pyTumblr and gitPython ***"
-    pip install pytumblr
+    echo "*** Installing requests-oauthlib and gitPython ***"
+    pip install requests-oauthlib
     pip install gitpython
     
-    echo "*** Posting to Slack, Discord and Tumblr... ***"
+    echo "*** Posting to Discord and Tumblr... ***"
     python social-media.py
 else
     echo "** Skipping posting to social media! ***"

@@ -1,4 +1,4 @@
-import pytumblr
+from requests_oauthlib import OAuth1Session
 import sys
 from datetime import datetime
 import os
@@ -6,6 +6,7 @@ from git import Repo
 import requests
 import json
 import re
+import mimetypes
 
 # # for local testing
 # from dotenv import load_dotenv
@@ -15,6 +16,7 @@ import re
 
 BASE_URL = 'http://wereonlyalittlelost.com/'
 UTM_STRING = '?utm_source='
+TUMBLR_POSTS_URL = 'https://api.tumblr.com/v2/blog/wereonlyalittlelost/posts'
 
 # Get the recent changed images from the git commit
 repo = Repo(os.getenv('TRAVIS_BUILD_DIR'))
@@ -75,7 +77,6 @@ for blog_post in md_filtered_list:
     # Get images from post: this can either be a static, local image (less likely)
     # or an image already uploaded to r2 by the app (hopefully more likely)
     # e.g. `![IMG_4366](https://pub-<hash>.r2.dev/images/IMG_4366.png)`
-    # google says client.create_photo will accept `source="https://r2.dev"``
     r2_urls = re.findall(r"https://pub-[a-z0-9]+\.r2\.dev/[^\s)\"']+", blogContent)
 
     # e.g. `![omakase](/images/new_york/omakase.png)` - captures just the path inside the parens
@@ -90,55 +91,68 @@ for blog_post in md_filtered_list:
 
     new_posts.append(post_metadata)
 
-# Connect to Tumblr Oath client
+# Connect to Tumblr with OAuth 1.0a
 print('Connecting to Tumblr Oauth client')
-client = pytumblr.TumblrRestClient(
+tumblr = OAuth1Session(
     os.getenv('TUMBLR_CONSUMER_KEY'),
-    os.getenv('TUMBLR_CONSUMER_SECRET'),
-    os.getenv('TUMBLR_TOKEN'),
-    os.getenv('TUMBLR_TOKEN_SECRET'),
+    client_secret=os.getenv('TUMBLR_CONSUMER_SECRET'),
+    resource_owner_key=os.getenv('TUMBLR_TOKEN'),
+    resource_owner_secret=os.getenv('TUMBLR_TOKEN_SECRET'),
 )
 
 # Allows me to add multiple posts at once, i dunno why I thought this would be hard before
-# TODO: pytumblr can only use 1 source image in the case of r2. If we want to attach multiple images again, 
-# we'll need to download the images with fetch, then upload them
+# Posts are built from NPF blocks: https://www.tumblr.com/docs/npf
 for post in new_posts:
     tumblr_url = f"{BASE_URL}{post['url']}{UTM_STRING}tumblr"
+    content = []
+    uploads = {} # local image files, keyed by the identifier used in their image block
 
     if post['has_images']:
         post['tags'] += ['pictures', 'trip', 'travel', 'adventure', 'blog']
+        content.append({'type': 'text', 'subtype': 'heading1', 'text': post['title']})
 
         if len(post['r2_images']) > 0:
-            client.create_photo(
-                'wereonlyalittlelost',
-                state="published",
-                tags=post['tags'],
-                format="markdown",
-                source=post['r2_images'][0],
-                caption=f"## {post['title']} \n {post['blog_content'][:200]}... [Read more]({tumblr_url})"
-            )
+            # r2 images are already hosted so Tumblr can fetch them by url
+            for image_url in post['r2_images'][0:3]:
+                content.append({'type': 'image', 'media': [{'url': image_url}]})
         else:
-            client.create_photo(
-                'wereonlyalittlelost',
-                state="published",
-                tags=post['tags'],
-                format="markdown",
-                data=post['local_images'][0:3],
-                caption=f"## {post['title']} \n {post['blog_content'][:200]}... [Read more]({tumblr_url})"
-            )
+            # local images get uploaded alongside the post, matched up by identifier
+            for i, image_path in enumerate(post['local_images'][0:3]):
+                identifier = f"image-{i}"
+                mime_type = mimetypes.guess_type(image_path)[0]
+                content.append({'type': 'image', 'media': [{'type': mime_type, 'identifier': identifier}]})
+                uploads[identifier] = (os.path.basename(image_path), open(image_path, 'rb'), mime_type)
 
-        print('Uploaded images to Tumblr')
+        # Excerpt with "Read more" linked to the post. Formatting offsets are character positions in the text
+        read_more = 'Read more'
+        text = f"{post['blog_content'][:200].strip()}... {read_more}"
+        content.append({
+            'type': 'text',
+            'text': text,
+            'formatting': [{'start': len(text) - len(read_more), 'end': len(text), 'type': 'link', 'url': tumblr_url}]
+        })
     else:
         post['tags'] += ['journal', 'trip', 'travel', 'adventure', 'blog']
-        client.create_link(
-            'wereonlyalittlelost',
-            state="published",
-            title=post['title'],
-            tags=post['tags'],
-            url=tumblr_url,
-            description=f"{post['blog_content'][:250]}..."
-        )
-        print('Uploaded a link to Tumblr')
+        content.append({
+            'type': 'link',
+            'url': tumblr_url,
+            'title': post['title'],
+            'description': f"{post['blog_content'][:250].strip()}..."
+        })
+
+    # NPF wants tags as a comma separated string instead of an array
+    body = {'content': content, 'state': 'published', 'tags': ','.join(post['tags'])}
+
+    if len(uploads) > 0:
+        # multipart: the post itself goes in a part named `json`, followed by one part per image
+        tumblr_res = tumblr.post(TUMBLR_POSTS_URL, files={'json': (None, json.dumps(body), 'application/json'), **uploads})
+    else:
+        tumblr_res = tumblr.post(TUMBLR_POSTS_URL, json=body)
+
+    if tumblr_res.status_code == 201:
+        print('Uploaded images to Tumblr' if post['has_images'] else 'Uploaded a link to Tumblr')
+    else:
+        print(f"Tumblr upload failed: {tumblr_res.status_code} {tumblr_res.text}")
 
     # Discord response can be 200-204
     data = {'content': f"{post['title']}:\n Read more at {BASE_URL}{post['url']}{UTM_STRING}discord"}
